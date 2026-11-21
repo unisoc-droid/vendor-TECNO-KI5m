@@ -1,0 +1,2 @@
+# Large stock vendor binary; stage separately on the build server.
+/prebuilt/vendor.img
