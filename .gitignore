@@ -1,5 +1,6 @@
-# Generated proprietary blobs - extract with ./extract-files.sh
-/proprietary/
+# Proprietary blobs are tracked in this repository (mirroring the
+# Redmi A5 / POCO C71 (serenity) vendor-tree convention) so a clean
+# checkout needs no extraction step. Only the raw stock image stays out.
 
-# Large stock vendor binary; stage separately on the build server.
+# Large stock vendor binary; never commit (803 MiB, exceeds GitHub limits).
 /prebuilt/vendor.img
