@@ -1,10 +1,10 @@
 # vendor/tecno/TECNO-KI5m (KI5m / LineageOS 20)
 
-Source metadata and inspection artifacts for the TECNO KI5m vendor blob.
+Standard LineageOS vendor-tree shape for TECNO KI5m.
 
 ## Build input
 
-`BoardConfig.mk` expects the stock V218 vendor image at:
+`BoardConfigVendor.mk` expects the stock V218 vendor image at:
 
 ```
 vendor/tecno/TECNO-KI5m/prebuilt/vendor.img
@@ -23,5 +23,5 @@ from that image; it is source-level evidence only, not a runtime check.
 - Debug default: `KI5M_DEBUG_PERMISSIVE ?= true` in the device tree.
 - No build, device, or OTA operation has been run from this repository.
 
-See the device tree repository `device-TECNO-KI5m`, branch
-`lineage-20.0-option-a`, for the matching BoardConfig/fstab.
+See `device-TECNO-KI5m`, branch `lineage-20.0`, for the matching BoardConfig,
+fstab and kernel build rules.
