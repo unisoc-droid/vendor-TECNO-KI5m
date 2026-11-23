@@ -288,16 +288,3 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-
-// HIDL interfaces referenced by stock init scripts (non-AOSP).
-prebuilt_hidl_interfaces {
-    name: "vendor_ki5m_hidl_interfaces",
-    hidl_interface_dirs: [
-        "vendor/transsion/hardware/camera/imgalgoservice/1.0",
-        "vendor/sprd/hardware/ai_engine/1.0",
-        "vendor/sprd/hardware/aprd/1.0",
-        "vendor/sprd/hardware/cplog_svc/1.0",
-        "vendor/sprd/hardware/fingerprintmmi/1.0",
-    ],
-    deprecated: false,
-}

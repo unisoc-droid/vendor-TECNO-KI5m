@@ -42,22 +42,23 @@ endif
 EOF
 
 # HIDL interfaces referenced by stock /vendor/etc/init/*.rc that AOSP does not
-# declare. host_init_verifier needs them in an exported Soong namespace.
-cat << 'EOF' >> "${ANDROIDBP}"
-
-// HIDL interfaces referenced by stock init scripts (non-AOSP).
-prebuilt_hidl_interfaces {
-    name: "vendor_ki5m_hidl_interfaces",
-    hidl_interface_dirs: [
-        "vendor/transsion/hardware/camera/imgalgoservice/1.0",
-        "vendor/sprd/hardware/ai_engine/1.0",
-        "vendor/sprd/hardware/aprd/1.0",
-        "vendor/sprd/hardware/cplog_svc/1.0",
-        "vendor/sprd/hardware/fingerprintmmi/1.0",
-    ],
-    deprecated: false,
-}
-EOF
+# declare. These non-AOSP interfaces lack .hal source in tree; prebuilt_hidl_interfaces
+# would fail bootstrap. Omitted until .hal files are extracted from stock.
+# cat << 'EOF' >> "${ANDPROIDBP}"
+# 
+# // HIDL interfaces referenced by stock init scripts (non-AOSP).
+# prebuilt_hidl_interfaces {
+#     name: "vendor_ki5m_hidl_interfaces",
+#     hidl_interface_dirs: [
+#         "vendor/transsion/hardware/camera/imgalgoservice/1.0",
+#         "vendor/sprd/hardware/ai_engine/1.0",
+#         "vendor/sprd/hardware/aprd/1.0",
+#         "vendor/sprd/hardware/cplog_svc/1.0",
+#         "vendor/sprd/hardware/fingerprintmmi/1.0",
+#     ],
+#     deprecated: false,
+# }
+# EOF
 
 # Stock symlinks (generated from inventory, replaces the hand-written block).
 cat << 'EOF' >> "${ANDROIDMK}"
