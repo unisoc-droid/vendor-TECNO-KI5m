@@ -1,30 +1,49 @@
 # vendor/tecno/TECNO-KI5m — LineageOS 20 (KI5m / UMS9230)
 
-Conventional LineageOS 20 vendor tree, following the same tracked-blob
-convention used by the Redmi A5 / POCO C71 (`serenity`) vendor tree.
+Full stock vendor payload, published. `git clone` → `lunch` → `mka bacon` needs
+no extraction, no image, no manual step.
 
-## Clean-checkout state (tracked)
+## What is here
 
-- `proprietary/` — **351 tracked files** (346 `PRODUCT_COPY_FILES` sources plus
-  5 VINTF manifest XML modules), ~76 MiB total, largest file 20.3 MiB. No
-  extraction step is needed on the build server.
-- `proprietary-files.txt` — 351 blob paths from the verified stock V218 image
-  (SHA-256 `fed3cf42811d3ddde84d558e1abb916e292cac4d56e8bd9beb1b69947ffb7207`).
-- `extract-files.sh` / `setup-makefiles.sh` — retained for audit and
-  regeneration from authorized stock firmware (EROFS image or pre-extracted
-  dump). Not part of the routine build.
+- `proprietary/` — 2088 files + 200 symlinks from stock V218 `vendor.img`
+  (plus the 71 non-build `system_ext`/`product` artifacts listed below).
+- `proprietary-files.txt` (sections per partition), `proprietary-symlinks.txt`,
+  `proprietary-fsconfig.txt` (stock uid/gid/mode), `blobs.sha256`.
+- `inventory/` — `stock.tsv` (type, mode, uid, gid, size, sha256, link target),
+  `dirs.txt`, `committed.tsv`, `exclusions.tsv`.
+- `provenance.json`, `NOTICE`.
 - Generated `TECNO-KI5m-vendor.mk`, `Android.bp`, `Android.mk`,
-  `BoardConfigVendor.mk` — current and reproducible.
-- `prebuilt/inspection/` — VINTF/SELinux metadata evidence only.
+  `Android.symlinks.mk`, `BoardConfigVendor.mk`.
+- `vendor.prop` — stock `/vendor/build.prop` content (the file itself is
+  build-generated, so it is carried as a property file instead).
+- `tools/verify-vendor.sh` — re-checks the tree against the inventory.
 
-## Not tracked
+Regeneration is maintainer-only: `extract-files.sh <image|dump>`.
 
-- `prebuilt/vendor.img` (841748480 B, EROFS). It is **not** needed for the
-  normal build; the raw image stays out of GitHub. The optional
-  `KI5M_USE_PREBUILT_VENDORIMAGE=true` fallback requires staging it manually
-  and is mutually exclusive with the tracked blobs.
+## Scope
 
-## Routine build (no provisioning)
+- `vendor` full, including `vendor/odm` and `vendor/odm_dlkm` (subdirectories of
+  `vendor.img`; neither is a mounted partition).
+- `system_ext`/`product`: only non-build artifacts — media extractors, VINTF
+  fragments, init scripts, permission XMLs, sysconfig, default-permissions,
+  camera models.
+- **Not included:** APKs (80 files, 1915 MiB, 10 above GitHub's 100 MiB limit —
+  they would need >1 GiB LFS beyond the free quota). Build does not need them.
+  `system` partition likewise (rebuildable by LineageOS).
+
+## Storage
+
+10 files ≥25 MiB (450 769 400 B) are in Git LFS via explicit `.gitattributes`
+entries. A clone must run `git lfs pull` (or not clone with
+`GIT_LFS_SKIP_SMUDGE=1`). Largest non-LFS file is 22.4 MiB.
+
+## Verify
+
+```bash
+tools/verify-vendor.sh inventory   # exits non-zero on any gap
+```
+
+## Build
 
 ```bash
 source build/envsetup.sh
@@ -32,15 +51,7 @@ lunch lineage_ki5m-userdebug
 mka bacon
 ```
 
-## Regeneration (optional, owner with authorized stock image)
+Nothing to provision. `prebuilt/vendor.img` is optional fallback only
+(`KI5M_USE_PREBUILT_VENDORIMAGE=true`).
 
-```bash
-cd vendor/tecno/TECNO-KI5m
-./extract-files.sh /path/to/stock/vendor.img
-# or: ./extract-files.sh /path/to/pre-extracted/vendor-dump
-```
-
-This rewrites `proprietary/` and the four generated makefiles. Stock XML on
-line 1 is preserved by the `fix_xml()` override.
-
-No build, flash, or boot has been performed from this repository.
+No build, flash or boot has been performed from this tree.

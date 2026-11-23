@@ -1,0 +1,22 @@
+vendor/build.prop	build/make/core/sysprop.mk:341,368
+vendor/etc/fs_config_dirs	fs_config_toc generation
+vendor/etc/fs_config_files	fs_config_toc generation
+vendor/etc/group	system/core/rootdir -> fs_config/group generation
+vendor/etc/mkshrc	external/mksh
+vendor/etc/passwd	system/core/rootdir -> fs_config/passwd generation
+vendor/etc/selinux/plat_pub_versioned.cil	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/plat_sepolicy_vers.txt	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/precompiled_sepolicy	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/selinux_denial_metadata	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vendor_file_contexts	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vendor_hwservice_contexts	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vendor_mac_permissions.xml	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vendor_property_contexts	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vendor_seapp_contexts	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vendor_sepolicy.cil	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vendor_service_contexts	system/sepolicy selinux_policy_nonsystem
+vendor/etc/selinux/vndservice_contexts	system/sepolicy selinux_policy_nonsystem
+vendor/etc/vintf/manifest.xml	VINTF manifest merge (build/make/core)
+vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml	hardware/interfaces/cas/1.2/default (AOSP module)

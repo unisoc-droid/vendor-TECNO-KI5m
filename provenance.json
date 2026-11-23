@@ -1,0 +1,55 @@
+{
+  "device": "TECNO KI5m",
+  "soc": "UMS9230 / T606 / qogirl6",
+  "build": "GL-20240612V218",
+  "authority": "spreadtrum_flash_linux/backup/super.bin (V218)",
+  "super_sha256": "65baac873a0671b1a2b266403a54b9709e37ea02ef60f5bdba954a1f28299318",
+  "vendor_image": {
+    "size": 841748480,
+    "sha256": "fed3cf42811d3ddde84d558e1abb916e292cac4d56e8bd9beb1b69947ffb7207",
+    "type": "EROFS LZ4_0PADDING"
+  },
+  "extracted_utc": "2026-11-23T03:23:56Z",
+  "tools": {
+    "fsck.erofs": "erofs-utils 1.8.6 (Debian trixie)",
+    "dump.erofs": "erofs-utils 1.8.6",
+    "lpunpack": "prebuilts/extract-tools"
+  },
+  "partitions": {
+    "vendor": {
+      "image_inventory": {
+        "files": 2039,
+        "dirs": 114,
+        "symlinks": 200
+      }
+    },
+    "system_ext": {
+      "image_inventory": {
+        "files": 441,
+        "dirs": 232,
+        "symlinks": 3
+      }
+    },
+    "product": {
+      "image_inventory": {
+        "files": 437,
+        "dirs": 182,
+        "symlinks": 0
+      }
+    }
+  },
+  "ownership": {
+    "uids": [
+      0
+    ],
+    "gids": [
+      0,
+      2000
+    ],
+    "capability_xattrs": 0
+  },
+  "notes": [
+    "vendor/odm and vendor/odm_dlkm are subdirectories of vendor.img, not mounted partitions",
+    "apps not included (80 APKs, 1915 MiB, 10 >100 MiB) - see DECISIONS"
+  ]
+}

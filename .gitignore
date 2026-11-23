@@ -1,6 +1,5 @@
-# Proprietary blobs are tracked in this repository (mirroring the
-# Redmi A5 / POCO C71 (serenity) vendor-tree convention) so a clean
-# checkout needs no extraction step. Only the raw stock image stays out.
-
-# Large stock vendor binary; never commit (803 MiB, exceeds GitHub limits).
+# Only raw images are excluded; every build input is tracked.
 /prebuilt/vendor.img
+*.pac
+super*.img
+*.raw

@@ -1,0 +1,12 @@
+on boot
+    write /dev/kmsg "woodpecker: enter boot" 
+    wait /dev/fpsensor
+    chmod 664 /dev/fpsensor                                      
+    chown system system /dev/fpsensor
+
+on factorytest-fs
+    insmod ${ro.vendor.ko.mount.point}/socko/fpsensor_fp.ko         
+    
+on factorytest-start                                               
+    chmod 664 /dev/fpsensor                                      
+    chown system system /dev/fpsensor

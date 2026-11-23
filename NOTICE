@@ -1,0 +1,31 @@
+# NOTICE — vendor/tecno/TECNO-KI5m
+
+The binaries under `proprietary/` are copied byte-for-byte from the stock
+TECNO KI5m (UMS9230) firmware, build GL-20240612V218. No patching, repacking
+or re-signing was applied.
+
+Per-file provenance: `blobs.sha256` (sha256 + path), `inventory/stock.tsv`
+(type, mode, uid, gid, size, sha256, link target), `provenance.json`.
+
+## What is known
+
+- Source: vendor partition of the V218 `super.img`; the extracted `vendor_a`
+  is byte-identical to the stock `vendor.img` (841748480 B, sha256
+  `fed3cf42…7207`).
+- Owners of the vendor payload are TECNO / Transsion, Spreadtrum/Unisoc, and
+  the respective silicon and component vendors (ARM, Imagination, NXP,
+  Silead, Goodix, DTS, Dolby and others present in the tree).
+- The tree also contains AOSP/Lineage-derived runtime artifacts as shipped by
+  the OEM. Those are not relicensed here.
+
+## What is not claimed
+
+- No license text is shipped per blob; the exact license of each OEM binary is
+  not published in the firmware and is therefore unknown here.
+- `prebuilt/inspection/` is metadata extracted from the same image for audit
+  (VINTF/SELinux), not a build input.
+
+## Exclusions
+
+22 paths that the build regenerates are listed in `inventory/exclusions.tsv`
+with the file that generates each. The raw `vendor.img` is not committed.
