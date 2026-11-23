@@ -1,6 +1,5 @@
 # Proprietary blobs extracted from stock TECNO KI5m V218.
 # Sections per partition; see inventory/provenance.json.
-
 # --- vendor ---
 vendor/app/LogManager/LogManager.apk
 vendor/app/LogManager/oat/arm64/LogManager.odex
@@ -1133,7 +1132,6 @@ vendor/firmware/gnssmodem.bin
 vendor/firmware/regulatory.db
 vendor/firmware/regulatory.db.p7s
 vendor/firmware/silead.elf
-vendor/firmware/tsx_data
 vendor/firmware/wcnmodem.bin
 vendor/firmware/wifi_board_config.ini
 vendor/framework/com.nxp.ls.jar
@@ -1283,7 +1281,6 @@ vendor/lib/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so
 vendor/lib/hw/vibrator.default.so
 vendor/lib/hw/vibrator.ums9230.so
 vendor/lib/hw/vulkan.ums9230.so
-vendor/lib/libAlgo_Config.so
 vendor/lib/libArcFilterImageEngine.so
 vendor/lib/libDefog.so
 vendor/lib/libDualCam_OnliCalib.so
@@ -1596,7 +1593,6 @@ vendor/lib/libwvhidl.so
 vendor/lib/libyuv420_scaler.so
 vendor/lib/mediacas/libclearkeycasplugin.so
 vendor/lib/mediadrm/libdrmclearkeyplugin.so
-vendor/lib/modules
 vendor/lib/npidevice/PQTune.ums9230.so
 vendor/lib/npidevice/autotestfinger.so
 vendor/lib/npidevice/autotestfm.so
@@ -1611,9 +1607,7 @@ vendor/lib/npidevice/libalsps.so
 vendor/lib/npidevice/libap_opt.so
 vendor/lib/npidevice/libapcomm.so
 vendor/lib/npidevice/libapdeepsleep.so
-vendor/lib/npidevice/libaudionpi.so
 vendor/lib/npidevice/libbt-sprd_eut.so
-vendor/lib/npidevice/libcamcalitest.so
 vendor/lib/npidevice/libcharge.so
 vendor/lib/npidevice/libcheckkeybox.so
 vendor/lib/npidevice/libchipid.so
@@ -1631,11 +1625,9 @@ vendor/lib/npidevice/liblcdnpi.so
 vendor/lib/npidevice/liblkvnpi.so
 vendor/lib/npidevice/libmiscdata.so
 vendor/lib/npidevice/libnefuse.so
-vendor/lib/npidevice/libnpi_rtc.so
 vendor/lib/npidevice/libpartinfo.so
 vendor/lib/npidevice/libreadfixednv.so
 vendor/lib/npidevice/librebootcmd.so
-vendor/lib/npidevice/libsensornpi.so
 vendor/lib/npidevice/libshell.so
 vendor/lib/npidevice/libtouchscreen.so
 vendor/lib/npidevice/libtran_diag_acs.so
@@ -1682,7 +1674,6 @@ vendor/lib/vendor.sprd.hardware.thermal@1.0.so
 vendor/lib/vendor.sprd.hardware.thermal@2.0.so
 vendor/lib/vendor.sprd.hardware.trusty@1.0.so
 vendor/lib/vendor.sprd.hardware.wcn@1.0.so
-vendor/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so
 vendor/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0.so
 vendor/lib/vendor.unisoc.hardware.power-V1-ndk_platform.so
 vendor/lib64/MemsicAlgo.so
@@ -2219,7 +2210,6 @@ vendor/usr/idc/synaptics_dsx.idc
 vendor/usr/idc/synaptics_dsx_i2c.idc
 vendor/usr/keylayout/adaptive_ts.kl
 vendor/usr/keylayout/gpio-keys.kl
-
 # --- system_ext ---
 system_ext/etc/init/apexd.factorytest.rc
 system_ext/etc/init/aprd.rc
@@ -2272,7 +2262,6 @@ system_ext/etc/vintf/manifest.xml
 system_ext/lib64/extractors/libaviextractor.so
 system_ext/lib64/extractors/libflvextractor.so
 system_ext/lib64/extractors/libunisocmpeg2extractor.so
-
 # --- product ---
 product/etc/default-permissions/default-permissions-google.xml
 product/etc/init/init.appturbo.rc

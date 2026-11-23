@@ -1178,7 +1178,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/regulatory.db:$(TARGET_COPY_OUT_VENDOR)/firmware/regulatory.db \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/regulatory.db.p7s:$(TARGET_COPY_OUT_VENDOR)/firmware/regulatory.db.p7s \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/silead.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/silead.elf \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/tsx_data:$(TARGET_COPY_OUT_VENDOR)/firmware/tsx_data \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/wcnmodem.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnmodem.bin \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/wifi_board_config.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_board_config.ini \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/framework/oat/arm/com.nxp.ls.odex:$(TARGET_COPY_OUT_VENDOR)/framework/oat/arm/com.nxp.ls.odex \
@@ -1327,7 +1326,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vibrator.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vulkan.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libAlgo_Config.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlgo_Config.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libArcFilterImageEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libArcFilterImageEngine.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libDefog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefog.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libDualCam_OnliCalib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDualCam_OnliCalib.so \
@@ -1640,7 +1638,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libyuv420_scaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuv420_scaler.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/modules:$(TARGET_COPY_OUT_VENDOR)/lib/modules \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/PQTune.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/autotestfinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestfinger.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/autotestfm.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestfm.so \
@@ -1655,9 +1652,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libap_opt.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libap_opt.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libapcomm.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libapcomm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libapdeepsleep.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libapdeepsleep.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libaudionpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libaudionpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libbt-sprd_eut.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libbt-sprd_eut.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libcamcalitest.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libcamcalitest.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libcharge.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libcharge.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libcheckkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libcheckkeybox.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libchipid.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libchipid.so \
@@ -1675,11 +1670,9 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/liblkvnpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/liblkvnpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libmiscdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libmiscdata.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libnefuse.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libnefuse.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libnpi_rtc.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libnpi_rtc.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libpartinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libpartinfo.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libreadfixednv.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libreadfixednv.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/librebootcmd.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/librebootcmd.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libsensornpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libsensornpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libshell.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libshell.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libtouchscreen.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libtouchscreen.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libtran_diag_acs.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libtran_diag_acs.so \
@@ -1726,7 +1719,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.sprd.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.thermal@2.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.sprd.hardware.trusty@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.trusty@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.sprd.hardware.wcn@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.wcn@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.unisoc.hardware.power-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.power-V1-ndk_platform.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/MemsicAlgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/MemsicAlgo.so \
