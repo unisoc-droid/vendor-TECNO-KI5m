@@ -13,9 +13,7 @@ vendor/app/ProxyNFwLocation/oat/arm64/ProxyNFwLocation.vdex
 vendor/bin/adbtestmode
 vendor/bin/aiactiver_testbench
 vendor/bin/antiflashing
-vendor/bin/applypatch
 vendor/bin/audiodumpclient
-vendor/bin/awk
 vendor/bin/bootcheckbox
 vendor/bin/boringssl_self_test32
 vendor/bin/boringssl_self_test64
@@ -28,7 +26,6 @@ vendor/bin/cp_diskserver
 vendor/bin/cp_dump_dbg
 vendor/bin/cplogctl
 vendor/bin/dcxsrv
-vendor/bin/dumpsys
 vendor/bin/engpc
 vendor/bin/engpcctl
 vendor/bin/enhance_test
@@ -84,7 +81,6 @@ vendor/bin/hw/wpa_supplicant
 vendor/bin/idlestat
 vendor/bin/init.insmod.sh
 vendor/bin/iwnpi
-vendor/bin/logwrapper
 vendor/bin/modem_control
 vendor/bin/modem_ctrl_dbg
 vendor/bin/nvmerge
@@ -130,7 +126,6 @@ vendor/bin/power/total/readme
 vendor/bin/power/total/tool/total.sh
 vendor/bin/refnotify
 vendor/bin/rpmbserver
-vendor/bin/sh
 vendor/bin/slogmodem_vendor
 vendor/bin/sprdstorageproxyd
 vendor/bin/srtd
@@ -138,8 +133,6 @@ vendor/bin/storage_feature_cloudctl
 vendor/bin/systemDebuggerd
 vendor/bin/tee_rpc
 vendor/bin/thermald
-vendor/bin/toolbox
-vendor/bin/toybox_vendor
 vendor/bin/tranlog
 vendor/bin/tranlogconfig
 vendor/bin/tsupplicant
@@ -148,7 +141,6 @@ vendor/bin/turbopower
 vendor/bin/uclampset
 vendor/bin/uniber
 vendor/bin/vndservice
-vendor/bin/vndservicemanager
 vendor/bin/yloglite
 vendor/bin/yloglitectl
 vendor/bin/yloglitekat
