@@ -37,10 +37,6 @@ $(call symlink-file,,libGLES_mali.so,$(PRODUCT_OUT)/vendor/lib/libOpenCL.so.1.2)
 $(call declare-0p-target,$(PRODUCT_OUT)/vendor/lib/libOpenCL.so.1.2)
 ALL_DEFAULT_INSTALLED_MODULES += $(PRODUCT_OUT)/vendor/lib/libOpenCL.so.1.2
 
-$(call symlink-file,,/vendor_dlkm/lib/modules,$(PRODUCT_OUT)/vendor/lib/modules)
-$(call declare-0p-target,$(PRODUCT_OUT)/vendor/lib/modules)
-ALL_DEFAULT_INSTALLED_MODULES += $(PRODUCT_OUT)/vendor/lib/modules
-
 $(call symlink-file,,/vendor/lib/libaudionpi.so,$(PRODUCT_OUT)/vendor/lib/npidevice/libaudionpi.so)
 $(call declare-0p-target,$(PRODUCT_OUT)/vendor/lib/npidevice/libaudionpi.so)
 ALL_DEFAULT_INSTALLED_MODULES += $(PRODUCT_OUT)/vendor/lib/npidevice/libaudionpi.so
