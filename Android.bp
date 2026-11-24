@@ -45,3 +45,246 @@ dex_import {
 	soc_specific: true,
 }
 
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.biometrics.fingerprint@2.1-service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.gatekeeper@1.0-service.trusty",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.health@2.1",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.security.keymint@1.0-unisoc.service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint@1.0-unisoc.service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.sensors@1.0",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.sensors@1.0.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.thermal@2.0-service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.wifi.hostapd",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.wifi.supplicant",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.wifi@1.0-service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "lights",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/lights.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.4-service.clearkey",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.4-service.widevine",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_dualsim",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_dualsim.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_face",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_face.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_mdt",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_mdt.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_media_c2_V1_1_unisoc",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_media_c2_V1_1_unisoc.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_trusty",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/manifest_trusty.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_memtrack",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/memtrack.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "power.stats-default",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/power.stats-default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "rebootescrow-default",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/rebootescrow-default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor-power-default",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor-power-default.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.sprd.hardware.boot@1.2",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.boot@1.2.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.sprd.hardware.fingerprintmmi@1.0-service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.sprd.hardware.gnss@2.2-service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.gnss@2.2-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.sprd.hardware.oemlock@1.0-service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.oemlock@1.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.sprd.hardware.thermal@2.0-service",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.sprd.hardware.thermal@2.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vibrator",
+	owner: "tecno",
+	src: "proprietary/vendor/etc/vintf/manifest/vibrator.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+

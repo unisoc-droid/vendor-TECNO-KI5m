@@ -1652,4 +1652,31 @@ PRODUCT_PACKAGES += \
     LogManager \
     Manual \
     ProxyNFwLocation \
-    com.nxp.ls
+    com.nxp.ls \
+    manifest_android.hardware.biometrics.fingerprint@2.1-service \
+    manifest_android.hardware.gatekeeper@1.0-service.trusty \
+    manifest_android.hardware.health@2.1 \
+    android.hardware.security.keymint@1.0-unisoc.service \
+    manifest_android.hardware.sensors@1.0 \
+    android.hardware.thermal@2.0-service \
+    manifest_android.hardware.wifi.hostapd \
+    manifest_android.hardware.wifi.supplicant \
+    manifest_android.hardware.wifi@1.0-service \
+    lights \
+    manifest_android.hardware.drm@1.4-service.clearkey \
+    manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_dualsim \
+    manifest_face \
+    manifest_mdt \
+    manifest_media_c2_V1_1_unisoc \
+    manifest_trusty \
+    manifest_memtrack \
+    power.stats-default \
+    rebootescrow-default \
+    vendor-power-default \
+    vendor.sprd.hardware.boot@1.2 \
+    vendor.sprd.hardware.fingerprintmmi@1.0-service \
+    vendor.sprd.hardware.gnss@2.2-service \
+    vendor.sprd.hardware.oemlock@1.0-service \
+    vendor.sprd.hardware.thermal@2.0-service \
+    vibrator
