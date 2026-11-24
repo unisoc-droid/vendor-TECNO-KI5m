@@ -244,7 +244,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/audio_policy_configuration_a2dp_offload_disabled.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_a2dp_offload_disabled.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/audio_policy_engine_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_configuration.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/audio_policy_engine_criteria.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_criteria.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/audio_policy_engine_criterion_types.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_criterion_types.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/audio_policy_engine_default_stream_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_default_stream_volumes.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/audio_policy_engine_product_strategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_engine_product_strategies.xml \
@@ -512,9 +511,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/otpdata/spw_input_parameters_values_planar.txt:$(TARGET_COPY_OUT_VENDOR)/etc/otpdata/spw_input_parameters_values_planar.txt \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/parameter-framework/ParameterFrameworkConfigurationPolicy.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/ParameterFrameworkConfigurationPolicy.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/parameter-framework/Settings/Policy/PolicyConfigurableDomains.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Settings/Policy/PolicyConfigurableDomains.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/parameter-framework/Structure/Policy/PolicyClass.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Structure/Policy/PolicyClass.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/parameter-framework/Structure/Policy/PolicySubsystem-CommonTypes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Structure/Policy/PolicySubsystem-CommonTypes.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/parameter-framework/Structure/Policy/PolicySubsystem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Structure/Policy/PolicySubsystem.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/parameter-framework/Structure/Policy/ProductStrategies.xml:$(TARGET_COPY_OUT_VENDOR)/etc/parameter-framework/Structure/Policy/ProductStrategies.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/performance/blacklist.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/blacklist.json \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/performance/keep_alive_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/performance/keep_alive_config.json \
@@ -541,7 +537,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/permissions/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.front.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/permissions/android.hardware.dramtest.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.dramtest.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/permissions/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/permissions/android.hardware.hardware_keystore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.hardware_keystore.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/permissions/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/permissions/android.hardware.nfc.hce.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.hce.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/permissions/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.nfc.xml \
@@ -974,91 +969,14 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/silead.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/silead.elf \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/wcnmodem.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wcnmodem.bin \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/firmware/wifi_board_config.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi_board_config.ini \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/framework/oat/arm/com.nxp.ls.odex:$(TARGET_COPY_OUT_VENDOR)/framework/oat/arm/com.nxp.ls.odex \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/framework/oat/arm/com.nxp.ls.vdex:$(TARGET_COPY_OUT_VENDOR)/framework/oat/arm/com.nxp.ls.vdex \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/framework/oat/arm64/com.nxp.ls.odex:$(TARGET_COPY_OUT_VENDOR)/framework/oat/arm64/com.nxp.ls.odex \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/framework/oat/arm64/com.nxp.ls.vdex:$(TARGET_COPY_OUT_VENDOR)/framework/oat/arm64/com.nxp.ls.vdex \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/MemsicAlgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/MemsicAlgo.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.frameworks.cameraservice.common@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.common@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.frameworks.cameraservice.device@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.device@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.frameworks.cameraservice.device@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.device@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.frameworks.cameraservice.service@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.service@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.frameworks.cameraservice.service@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.service@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.frameworks.cameraservice.service@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.cameraservice.service@2.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.frameworks.sensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.frameworks.sensorservice@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio.common@7.0-enums.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@7.0-enums.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio.common@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@7.0-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio.common@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@7.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio.effect@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect@7.0-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio.effect@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.effect@7.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@7.0-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio@7.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.bluetooth.audio@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.boot@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.boot@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.boot@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.boot@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.boot@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.boot@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.broadcastradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.broadcastradio@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.common@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.5.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.device@3.6.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy-sprd.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.cas.native@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas.native@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.cas@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.cas@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.cas@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.cas@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.drm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.drm@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.drm@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.drm@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.drm@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.drm@1.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.gnss.measurement_corrections@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss.measurement_corrections@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.gnss.measurement_corrections@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss.measurement_corrections@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.gnss.visibility_control@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss.visibility_control@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.gnss@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.health@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.health@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.media.c2@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.media.c2@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.media.c2@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.nfc@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio.config@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio.config@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio.config@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio.config@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio.deprecated@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.5.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.radio@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.radio@1.6.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.secure_element@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.secure_element@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.sensors@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.thermal@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.thermal@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.wifi@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/android.hidl.allocator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hidl.allocator@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/arm.graphics-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V1-ndk_platform.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/arm.graphics-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V2-ndk.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/arm.graphics-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/arm.graphics-V2-ndk_platform.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audio_common-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/audioclient-types-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/av-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/av-types-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.2-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.3-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.4-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-external-impl-sprd.so \
@@ -1068,25 +986,11 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.boot@1.0-impl-1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.boot@1.0-impl-1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.broadcastradio@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-arm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-arm.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.health@2.0-impl-2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.nfc@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.renderscript@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.sensors@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/audio.bluetooth.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/audio.primary.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.default.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.usb.default.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/bootctrl.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bootctrl.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/camera.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/dpu.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/dpu.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/enhance.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/enhance.ums9230.so \
@@ -1098,11 +1002,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/gsp.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gsp.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/hwcomposer.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/libAlgo_Config.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libAlgo_Config.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/local_time.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/memtrack.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/sensors.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/thermal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/unisoc.bootctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/unisoc.bootctrl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vendor.sprd.hardware.algoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.algoservice@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vendor.sprd.hardware.aprd@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.aprd@1.0-impl.so \
@@ -1116,7 +1017,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vendor.sprd.hardware.trusty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.trusty@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vendor.sprd.hardware.wcn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.sprd.hardware.wcn@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vibrator.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libArcFilterImageEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libArcFilterImageEngine.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libDefog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefog.so \
@@ -1153,25 +1053,19 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libaf3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaf3.2.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libaftrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaftrigger.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libalsa_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsa_utils.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libalsc3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsc3.2.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libamipengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libamipengine.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libanc_night.so:$(TARGET_COPY_OUT_VENDOR)/lib/libanc_night.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libatci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libatci.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libatm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libatm.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioclient_aidl_conversion.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libaudiodump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiodump.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiofoundation.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libaudiomiscctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudiomiscctl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libaudionpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudionpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libavcodec-58.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavcodec-58.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libavservices_minijail.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libavservices_minijail_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavservices_minijail_vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libavutil-56.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavutil-56.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libawb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libawb1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb1.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libawb3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libawb3.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libbokeh_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbokeh_depth.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libbokeh_depth_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbokeh_depth_adapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libbqbbt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbqbbt.so \
@@ -1185,7 +1079,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamcalitest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamcalitest.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamcommon.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera2ndk_vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamfacebeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamfacebeauty.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamfaceskinseg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamfaceskinseg.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamfb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamfb.so \
@@ -1194,9 +1087,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcampm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcampm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcamsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamsensor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libceres_online.so:$(TARGET_COPY_OUT_VENDOR)/lib/libceres_online.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_hidl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_hidl@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_hidl_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_hidl_plugin.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_unisoc_av1dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_av1dec.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_unisoc_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_avcdec.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_unisoc_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_avcenc.so \
@@ -1211,15 +1101,11 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_unisoc_store.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_store.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_unisoc_vp8dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_vp8dec.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_unisoc_vp9dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_unisoc_vp9dec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vndk.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libcppdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppdrv.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libdav1d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdav1d.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libdeflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdeflicker.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdts-eagle-shared.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libdtsdsec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdtsdsec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffects.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libeffectsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffectsconfig.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libeng_tok.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeng_tok.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libengpc_adapt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengpc_adapt.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libengpcctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengpcctl.so \
@@ -1236,9 +1122,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libgtm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgtm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhidltransport.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwbinder.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwc2on1adapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libimpl-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimpl-ril.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libinfo.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libinterface.so \
@@ -1261,7 +1144,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libmfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfnr.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libmulticam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmulticam.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libnavcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnavcore.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnbaio_mono.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libnpi_rtc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnpi_rtc.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libnvitem_crypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvitem_crypto.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libomx_av1dec_sw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_av1dec_sw_sprd.so \
@@ -1282,7 +1164,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libomx_vpxdec_hw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_vpxdec_hw_sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libomx_vpxdec_sw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_vpxdec_sw_sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libomx_vpxenc_hw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_vpxenc_hw_sprd.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libotp_gc08a3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libotp_gc08a3_common.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libotp_hi1634b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libotp_hi1634b_otp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libotp_ov16b10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libotp_ov16b10.so \
@@ -1298,12 +1179,9 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libparam_ov8856_1831_bk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libparam_ov8856_1831_bk.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libpdalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdalgo.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libpowerhal_cli.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhal_cli.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libril-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-lite.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libril-private.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-private.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/librilcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilcore.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilutils.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/librpmbclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmbclient.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensor_fakeserial.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_fakeserial.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensor_gc08a3_4lane.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_gc08a3_4lane.so \
@@ -1311,12 +1189,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensor_ov16b10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_ov16b10.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensor_ov8856_4lane.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_ov8856_4lane.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensorlistcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistcfg.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensornpi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensornpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsensorsdrvcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorsdrvcfg.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsfplugin_ccodec_utils.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libshmemcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemcompat.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libshmemutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libshmemutil.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsl_fp_impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsprd_faceanalyze_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprd_faceanalyze_adapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsprd_mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprd_mfsr.so \
@@ -1362,34 +1236,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsprdwarpadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprdwarpadapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsprdwarppro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprdwarppro.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libsprdwtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsprdwtadapter.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_bufferpool@2.0.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_amrnbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrnbenc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_amrwbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrwbenc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcenc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_gsmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_gsmdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_hevcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_hevcdec.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_mjpgdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mjpgdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_mpeg2dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg2dec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_mpeg4enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_sprd_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_sprd_mp3dec.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefright_sprd_mp3enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_sprd_mp3enc.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
@@ -1403,9 +1250,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libteeproduction.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteeproduction.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libtensorflowlite_c.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtensorflowlite_c.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libtflite_native_inference.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_native_inference.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrusty.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libtrustyHalHelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrustyHalHelper.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libturboctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libturboctl_vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libumnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libumnn.so \
@@ -1414,9 +1258,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libvcm_fp5510.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcm_fp5510.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libvcm_gt9772.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcm_gt9772.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libverify.so:$(TARGET_COPY_OUT_VENDOR)/lib/libverify.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvibrator.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libvsp_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvsp_ca.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwcn-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwcn-vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwifi-hal-unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-unisoc.so \
@@ -1424,8 +1265,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libyuv420_scaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuv420_scaler.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediacas/libclearkeycasplugin.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/PQTune.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/autotestfinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestfinger.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/autotestfm.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/autotestfm.so \
@@ -1474,19 +1313,9 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/libylogtopc.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libylogtopc.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/npidevice/nativemmifinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/nativemmifinger.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/oemlock_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/oemlock_ca.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/shared-file-region-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libbundlewrapper2.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libbundlewrapper2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdownmix.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdtsaudio.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libeffectproxy.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhapticgenerator.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libldnhncr.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libreverbwrapper.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libsprdvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsprdvoiceprocessing.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvisualizer.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.sprd.hardware.aprd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.aprd@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.sprd.hardware.boot@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.boot@1.2.so \
@@ -1510,108 +1339,13 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.transsion.hardware.camera.imgalgoservice@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/vendor.unisoc.hardware.power-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.unisoc.hardware.power-V1-ndk_platform.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/MemsicAlgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/MemsicAlgo.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.frameworks.cameraservice.common@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.common@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.frameworks.cameraservice.device@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.device@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.frameworks.cameraservice.device@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.device@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.frameworks.cameraservice.service@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.service@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.frameworks.cameraservice.service@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.service@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.frameworks.cameraservice.service@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.cameraservice.service@2.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.frameworks.sensorservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.sensorservice@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio.common@5.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio.common@7.0-enums.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.0-enums.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio.common@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.0-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio.common@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@7.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio.effect@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect@7.0-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio.effect@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.effect@7.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio@7.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0-util.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.audio@7.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio@7.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.biometrics.face@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.face@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.biometrics.fingerprint@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.bluetooth.audio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth.audio@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.bluetooth@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.bluetooth@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.boot@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.boot@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.boot@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.boot@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.broadcastradio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.broadcastradio@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.broadcastradio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.broadcastradio@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.common@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.common@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.device@3.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.5.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.device@3.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.device@3.6.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy-sprd.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.drm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.drm@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.drm@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.drm@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.drm@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.drm@1.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gatekeeper@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gatekeeper@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.measurement_corrections@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gnss.visibility_control@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss.visibility_control@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gnss@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gnss@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.gnss@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.gnss@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1-resources.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.graphics.composer@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.graphics.composer@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.health@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.health@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.health@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.health@2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.nfc@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.nfc@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.oemlock@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.oemlock@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio.config@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio.config@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.config@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio.deprecated@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio.deprecated@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.5.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.radio@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.radio@1.6.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.secure_element@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.secure_element@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.sensors@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.sensors@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.thermal@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.thermal@2.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.usb@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.usb@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.usb@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.hostapd@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.hostapd@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi.supplicant@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi.supplicant@1.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.3.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.4.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hardware.wifi@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.wifi@1.5.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.hidl.allocator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hidl.allocator@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/android.system.wifi.keystore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.system.wifi.keystore@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/arm.graphics-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/arm.graphics-V2-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V2-ndk.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/arm.graphics-V2-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V2-ndk_platform.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/audio_common-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audio_common-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/audioclient-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/audioclient-types-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/av-types-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/av-types-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@3.2-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@3.3-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@3.4-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.4-external-impl-sprd.so \
@@ -1620,28 +1354,11 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@3.5-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_client.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@7.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.audio@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@7.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.1-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.boot@1.0-impl-1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.boot@1.0-impl-1.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.broadcastradio@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.allocator@4.0-impl-arm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@4.0-impl-arm.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.health@2.0-impl-2.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.nfc@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.nfc@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.renderscript@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.renderscript@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/android.hardware.sensors@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.sensors@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/audio.bluetooth.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/audio.usb.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.default.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/bootctrl.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bootctrl.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/camera.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/dpu.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/dpu.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/enhance.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/enhance.ums9230.so \
@@ -1653,11 +1370,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/gsp.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gsp.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/hwcomposer.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/libAlgo_Config.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libAlgo_Config.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/local_time.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/local_time.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/memtrack.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/power.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/sensors.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/thermal.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/unisoc.bootctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/unisoc.bootctrl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vendor.sprd.hardware.algoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.algoservice@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vendor.sprd.hardware.aprd@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.aprd@1.0-impl.so \
@@ -1671,7 +1385,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vendor.sprd.hardware.trusty@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.trusty@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vendor.sprd.hardware.wcn@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.sprd.hardware.wcn@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vibrator.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libDefog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefog.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libDualCam_OnliCalib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCam_OnliCalib.so \
@@ -1694,7 +1407,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libWhite_point_shift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libWhite_point_shift.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libXMPCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libXMPCore.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libXMPFiles.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libXMPFiles.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_android_keymaster_keymint_utils.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/lib_faceskinseg_vdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_faceskinseg_vdsp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libae.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libae3.x.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libae3.x.so \
@@ -1702,21 +1414,16 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libaftrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaftrigger.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libaiactiver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiactiver.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libaiactiver_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiactiver_core.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libalsautils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsautils.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libalsc3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalsc3.2.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libarcsoft_low_light_shot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_low_light_shot.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libatci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libatci.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libatm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libatm.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libaudioclient_aidl_conversion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioclient_aidl_conversion.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libaudiofoundation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudiofoundation.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libaudionpi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudionpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libavcodec-58.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavcodec-58.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libavutil-56.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libavutil-56.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libawb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libawb.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libawb1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libawb1.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libawb3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libawb3.2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libbinderdebug.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbinderdebug.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libbokeh_depth.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbokeh_depth.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libbokeh_depth_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbokeh_depth_adapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libbt-sprd_suite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-sprd_suite.so \
@@ -1730,7 +1437,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamcalitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamcalitest.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamcommon.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamera2ndk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera2ndk_vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamfacebeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamfacebeauty.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamfaceskinseg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamfaceskinseg.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamfb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamfb.so \
@@ -1739,21 +1445,14 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcampm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcampm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcamsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamsensor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libceres_online.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libceres_online.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrome.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcodec2_unisoc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_common.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcodec2_unisoc_deintl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_deintl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcodec2_unisoc_store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_unisoc_store.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcodec2_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vndk.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libcppdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppdrv.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libdav1d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdav1d.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libdeflicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdeflicker.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdrm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdts-eagle-shared.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libdtsdsec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdtsdsec.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libeffects.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffects.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libeffectsconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffectsconfig.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libefuse.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libefuse.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libeng_tok.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeng_tok.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libengbt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengbt.so \
@@ -1770,10 +1469,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libgtm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgtm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidltransport.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwbinder.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libhwc2on1adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2on1adapter.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libhwc2onfbadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwc2onfbadapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libimpl-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimpl-ril.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libinfo.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libinterface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libinterface.so \
@@ -1783,7 +1478,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libjpegenc_sw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegenc_sw_sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkernelbootcp.trusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkernelbootcp.trusty.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkey.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
@@ -1804,7 +1498,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libmulticam.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmulticam.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libnavcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnavcore.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libnbaio_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnbaio_mono.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libomx_av1dec_sw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomx_av1dec_sw_sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libomx_avcdec_hw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomx_avcdec_hw_sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libomx_avcdec_sw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomx_avcdec_sw_sprd.so \
@@ -1839,13 +1532,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libportrait_repair_ppl3_ocl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libportrait_repair_ppl3_ocl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libpowerhal_cli.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal_cli.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libril-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-lite.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libril-private.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-private.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/librilcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilcore.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/librpmbclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmbclient.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensor_fakeserial.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_fakeserial.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensor_gc08a3_4lane.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_gc08a3_4lane.so \
@@ -1853,12 +1543,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensor_ov16b10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_ov16b10.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensor_ov8856_4lane.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_ov8856_4lane.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensorlistcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistcfg.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensornpi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensornpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensorsdrvcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorsdrvcfg.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libshmemcompat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshmemcompat.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libshmemutil.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libshmemutil.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsprd_faceanalyze_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprd_faceanalyze_adapter.so \
@@ -1905,7 +1591,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsprdwarpadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprdwarpadapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsprdwarppro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprdwarppro.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsprdwtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprdwtadapter.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libstagefright_bufferpool@2.0.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_bufferpool@2.0.1.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsupl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsupl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libswresample-3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswresample-3.so \
@@ -1916,10 +1601,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libteeproduction.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteeproduction.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtensorflowlite_c.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libtest64bit.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtest64bit.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libtinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libtranlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtranlog.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libtrusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrusty.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libtrustyHalHelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustyHalHelper.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libturboctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libturboctl_vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libumnn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libumnn.so \
@@ -1927,15 +1609,12 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libvcm_fp5510.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcm_fp5510.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libvcm_gt9772.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcm_gt9772.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libverify.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libverify.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libvibrator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvibrator.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libvsp_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvsp_ca.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwcn-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwcn-vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwifi-hal-unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-unisoc.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libyuv420_scaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuv420_scaler.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libz_stable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz_stable.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/mediacas/libclearkeycasplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediacas/libclearkeycasplugin.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/PQTune.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libFactoryRadioTest.so \
@@ -1945,18 +1624,8 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/liblcdnpi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/liblcdnpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/oemlock_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/oemlock_ca.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/power.sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/power.sprd.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/shared-file-region-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/shared-file-region-aidl-cpp.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libbundlewrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libbundlewrapper2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libbundlewrapper2.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libdownmix.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdownmix.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdtsaudio.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libeffectproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libeffectproxy.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libhapticgenerator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhapticgenerator.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libldnhncr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libldnhncr.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libreverbwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libreverbwrapper.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvisualizer.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.eventprocessor@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpese@1.0.so \
