@@ -4,7 +4,7 @@
 # Run from AOSP root after a build reaches "writing build rules" (even a failed
 # one leaves installs-*.mk behind). Exits 0 always; prints collisions.
 set -u
-cd "$(dirname "$0")/../.." || exit 1
+cd "$(dirname "$0")/../../.." || exit 1
 
 INSTALLS=$(ls out/soong/installs-*.mk 2>/dev/null | head -1)
 if [ -z "$INSTALLS" ]; then

@@ -94,7 +94,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fm_tools:$(TARGET_COPY_OUT_VENDOR)/bin/fm_tools \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fpsmgr:$(TARGET_COPY_OUT_VENDOR)/bin/fpsmgr \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service.unisoc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service \

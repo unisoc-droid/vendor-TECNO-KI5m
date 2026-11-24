@@ -31,7 +31,6 @@ vendor/bin/factorytest
 vendor/bin/fm_tools
 vendor/bin/fpsmgr
 vendor/bin/gpsd
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc
 vendor/bin/hw/android.hardware.camera.provider@2.4-service
 vendor/bin/hw/android.hardware.cas@1.2-service
