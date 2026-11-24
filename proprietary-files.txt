@@ -2053,6 +2053,5 @@ product/etc/sysconfig/gmsexpressplus.xml
 product/etc/sysconfig/google-rollback-package-whitelist.xml
 product/etc/sysconfig/google-staged-installer-whitelist.xml
 product/etc/sysconfig/google.xml
-product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml
 product/etc/sysconfig/wellbeing.xml
 

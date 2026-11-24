@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/google-rollback-package-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-rollback-package-whitelist.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/google-staged-installer-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-staged-installer-whitelist.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/apexd.factorytest.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/apexd.factorytest.rc \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/aprd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aprd.rc \
