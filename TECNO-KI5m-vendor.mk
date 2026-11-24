@@ -407,7 +407,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/memtrack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/memtrack.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/modem_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modem_control.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/phasecheckserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/phasecheckserver.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/power.stats-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power.stats-default.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/refnotify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/refnotify.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/rpmbserver_androidr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rpmbserver_androidr.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/slogmodem_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slogmodem_vendor.rc \

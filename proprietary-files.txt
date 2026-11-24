@@ -344,7 +344,6 @@ vendor/etc/init/lights.rc
 vendor/etc/init/memtrack.rc
 vendor/etc/init/modem_control.rc
 vendor/etc/init/phasecheckserver.rc
-vendor/etc/init/power.stats-default.rc
 vendor/etc/init/refnotify.rc
 vendor/etc/init/rpmbserver_androidr.rc
 vendor/etc/init/slogmodem_vendor.rc
