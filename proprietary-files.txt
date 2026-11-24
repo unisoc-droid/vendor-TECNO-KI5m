@@ -138,7 +138,6 @@ vendor/data/camera/watermark/watermark_4608x3456.nv21
 vendor/etc/BBAT.conf
 vendor/etc/IntelligentLight.cer
 vendor/etc/LatitudeLongitude.xml
-vendor/etc/NOTICE.xml.gz
 vendor/etc/NotoSansCJK-Regular-sprd.ttc
 vendor/etc/PCBA.conf
 vendor/etc/a2dp_audio_policy_configuration.xml
@@ -1573,11 +1572,9 @@ vendor/logo/time_vert_72x36x13.rgba
 vendor/logo/time_vert_72x36x13.yuv
 vendor/media/audio_sample.pcm
 vendor/media/engtest_sample.pcm
-vendor/odm/etc/NOTICE.xml.gz
 vendor/odm/etc/build.prop
 vendor/odm/etc/group
 vendor/odm/etc/passwd
-vendor/odm_dlkm/etc/NOTICE.xml.gz
 vendor/overlay/AndroidMarlin3WifiOverlayResources/AndroidMarlin3WifiOverlayResources.apk
 vendor/overlay/AndroidWifiOverlayResources/AndroidWifiOverlayResources.apk
 vendor/overlay/NetworkStackOverlay.apk

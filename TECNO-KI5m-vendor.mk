@@ -201,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/BBAT.conf:$(TARGET_COPY_OUT_VENDOR)/etc/BBAT.conf \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/IntelligentLight.cer:$(TARGET_COPY_OUT_VENDOR)/etc/IntelligentLight.cer \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/LatitudeLongitude.xml:$(TARGET_COPY_OUT_VENDOR)/etc/LatitudeLongitude.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/etc/NOTICE.xml.gz \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/NotoSansCJK-Regular-sprd.ttc:$(TARGET_COPY_OUT_VENDOR)/etc/NotoSansCJK-Regular-sprd.ttc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/PCBA.conf:$(TARGET_COPY_OUT_VENDOR)/etc/PCBA.conf \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
@@ -1635,11 +1634,9 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/logo/time_vert_72x36x13.yuv:$(TARGET_COPY_OUT_VENDOR)/logo/time_vert_72x36x13.yuv \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/media/audio_sample.pcm:$(TARGET_COPY_OUT_VENDOR)/media/audio_sample.pcm \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/media/engtest_sample.pcm:$(TARGET_COPY_OUT_VENDOR)/media/engtest_sample.pcm \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/odm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM)/odm/etc/NOTICE.xml.gz \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/odm/etc/build.prop:$(TARGET_COPY_OUT_ODM)/odm/etc/build.prop \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_ODM)/odm/etc/group \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/odm/etc/passwd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/NOTICE.xml.gz \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/usr/idc/adaptive_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/adaptive_ts.idc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/usr/idc/focaltech_ats.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_ats.idc \
