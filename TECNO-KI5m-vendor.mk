@@ -1653,17 +1653,12 @@ PRODUCT_PACKAGES += \
     Manual \
     ProxyNFwLocation \
     com.nxp.ls \
-    manifest_android.hardware.biometrics.fingerprint@2.1-service \
-    manifest_android.hardware.gatekeeper@1.0-service.trusty \
-    manifest_android.hardware.health@2.1 \
     android.hardware.security.keymint@1.0-unisoc.service \
     manifest_android.hardware.sensors@1.0 \
     android.hardware.thermal@2.0-service \
     manifest_android.hardware.wifi.hostapd \
     manifest_android.hardware.wifi.supplicant \
-    manifest_android.hardware.wifi@1.0-service \
     lights \
-    manifest_android.hardware.drm@1.4-service.clearkey \
     manifest_android.hardware.drm@1.4-service.widevine \
     manifest_dualsim \
     manifest_face \
@@ -1672,7 +1667,6 @@ PRODUCT_PACKAGES += \
     manifest_trusty \
     manifest_memtrack \
     power.stats-default \
-    rebootescrow-default \
     vendor-power-default \
     vendor.sprd.hardware.boot@1.2 \
     vendor.sprd.hardware.fingerprintmmi@1.0-service \
