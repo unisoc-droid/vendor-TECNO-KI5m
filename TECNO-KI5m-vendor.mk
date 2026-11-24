@@ -324,28 +324,16 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/fstab.ums9230_zebu:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.ums9230_zebu \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/imsUserAgent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/imsUserAgent.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/adbtestmode.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/adbtestmode.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.audio.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service.unisoc.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.clearkey.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.clearkey.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service.trusty.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.graphics.composer@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.composer@2.1-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.security.keymint@1.0-unisoc.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@1.0-unisoc.service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.usb@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/antiflashing.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/antiflashing.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/autotest.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/boringssl_self_test.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/boringssl_self_test.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/charge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charge.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/charged.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charged.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/connmgr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/connmgr.rc \
@@ -421,7 +409,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/modem_control.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/modem_control.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/phasecheckserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/phasecheckserver.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/power.stats-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/power.stats-default.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/rebootescrow-default.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rebootescrow-default.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/refnotify.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/refnotify.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/rpmbserver_androidr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rpmbserver_androidr.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/slogmodem_vendor.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/slogmodem_vendor.rc \
@@ -454,9 +441,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/vendor.sprd.hardware.thermal@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.thermal@2.0-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/vendor.sprd.hardware.trusty@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.trusty@1.0-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sprd.hardware.wcn@1.0-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/vendor_flash_recovery.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor_flash_recovery.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/vibrator.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vibrator.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/vndservicemanager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vndservicemanager.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/wcn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wcn.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/yloglite.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/yloglite.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
