@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The HAL fragments in vendor/etc/vintf/manifest/ are collected by libvintf's
+     addDirectoryManifests(); this root file only needs to exist. -->
+<manifest version="1.0" type="device" />
