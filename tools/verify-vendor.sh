@@ -64,10 +64,12 @@ while read -r src; do
   [ -f "$rel" ] || [ -L "$rel" ] || bad "copy source $src"
 done < <(sed -n 's/^[[:space:]]*\([^:]*\):.*/\1/p' TECNO-KI5m-vendor.mk | grep proprietary)
 
-# 8. manifest lines resolve to committed files
+# 8. manifest lines resolve to committed files ('-' prefix = Soong module)
 while read -r l; do
   case "$l" in \#*|"") continue;; esac
-  p="proprietary/${l%%;*}"
+  spec="${l#-}"
+  p="proprietary/${spec%%;*}"
+  p="${p%%:*}"
   [ -e "$p" ] || [ -L "$p" ] || bad "manifest unresolved $p"
 done < proprietary-files.txt
 
