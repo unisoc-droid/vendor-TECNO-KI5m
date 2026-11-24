@@ -32,13 +32,19 @@ links=$(grep -vc '^#' proprietary-symlinks.txt)
 excluded=$(grep -c . "$INV/exclusions.tsv" 2>/dev/null || echo 0)
 [ "$((committed + links + excluded))" -eq "$total" ] || bad "count committed+links+excluded=$((committed + links + excluded)) != stock=$total"
 
-# 4. modes/uid/gid parity
-while read -r path uid gid mode; do
-  case "$path" in \#*|"") continue;; esac
+# 4. modes/uid/gid parity (INI config.fs format: [path] / mode: / user: / group:)
+awk '
+  /^\[/ { path=substr($0,2,length($0)-2); next }
+  /^mode:/ { split($0,a,": "); mode=a[2]; next }
+  /^user:/ { split($0,a,": "); uid=a[2]; next }
+  /^group:/ { split($0,a,": "); gid=a[2]; next }
+  /^$/ && path != "" { print path, uid, gid, mode; path=""; uid=""; gid=""; mode="" }
+  END { if (path != "") print path, uid, gid, mode }
+' proprietary-fsconfig.txt | while read -r path uid gid mode; do
   [ -e "$path" ] || [ -L "$path" ] || continue
   perm=$(stat -c '%a' "$path")
   [ "$perm" = "$mode" ] || bad "mode $path ($perm != $mode)"
-done < proprietary-fsconfig.txt
+done
 
 # 5. no LFS pointer
 while read -r f; do

@@ -32,6 +32,7 @@ write_makefiles "${MY_DIR}/proprietary-files.txt"
 cat << 'EOF' >> "${BOARDMK}"
 
 # Stock inode metadata (uid/gid/mode) for every tracked blob, from the image.
+# config.fs INI format: [path] / mode: / user: / group: / caps: 0
 TARGET_FS_CONFIG_GEN += vendor/tecno/TECNO-KI5m/proprietary-fsconfig.txt
 
 # VINTF compatibility matrices (stock V218).
