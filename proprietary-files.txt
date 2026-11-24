@@ -31,7 +31,6 @@ vendor/bin/factorytest
 vendor/bin/fm_tools
 vendor/bin/fpsmgr
 vendor/bin/gpsd
-vendor/bin/hw/android.hardware.audio.service
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc
 vendor/bin/hw/android.hardware.camera.provider@2.4-service
@@ -43,7 +42,6 @@ vendor/bin/hw/android.hardware.graphics.allocator@4.0-service
 vendor/bin/hw/android.hardware.graphics.composer@2.1-service
 vendor/bin/hw/android.hardware.health@2.1-service
 vendor/bin/hw/android.hardware.media.c2@1.1-unisoc-service
-vendor/bin/hw/android.hardware.media.omx@1.0-service
 vendor/bin/hw/android.hardware.nfc@1.2-service
 vendor/bin/hw/android.hardware.power.stats-service.example
 vendor/bin/hw/android.hardware.rebootescrow-service.default
