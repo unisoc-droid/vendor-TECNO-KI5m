@@ -40,9 +40,9 @@ TARGET_FS_CONFIG_GEN += vendor/tecno/TECNO-KI5m/proprietary-fsconfig.txt
 BOARD_VENDOR_COMPATIBILITY_MATRIX_FILE += vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/vintf/compatibility_matrix.xml
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += vendor/tecno/TECNO-KI5m/proprietary/product/etc/vintf/compatibility_matrix.xml
 
-# VINTF framework manifest (stock V218 system_ext).
-# Build system prohibits manifests in PRODUCT_COPY_FILES; declare via proper variable.
-DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/vintf/manifest.xml
+# VINTF manifest (stock V218 system_ext) is installed via prebuilt_etc_xml in Android.bp,
+# not via DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE (that is for compatibility matrices only).
+# No entry needed here; setup-makefiles.sh generates prebuilt_etc_xml from proprietary-files.txt.
 
 # Optional prebuilt vendor image fallback. Unset by default so the tracked
 # blobs are the build input.
