@@ -65,4 +65,51 @@ for p in collisions:
     print(f"  {p}")
 if not collisions:
     print("  (none)")
+
+# Static second pass: AOSP Make modules (LOCAL_PROPRIETARY_MODULE) install via
+# base_rules.mk, which never shows up in installs-*.mk. Match their declared
+# module/stem names against our dests. These may or may not be in the graph, so
+# confirm each against a real build error before dropping.
+import os
+ours = {}
+for d in dests:
+    ours.setdefault(os.path.basename(d), []).append(d)
+names = {}
+for dp, ds, fs in os.walk('.'):
+    rel = dp[2:] if dp.startswith('./') else dp
+    if any(rel == s or rel.startswith(s + '/') for s in ('vendor/tecno', 'out', '.repo', 'prebuilts')):
+        ds[:] = []
+        continue
+    for fn in ('Android.bp', 'Android.mk'):
+        if fn not in fs:
+            continue
+        path = os.path.join(dp, fn)
+        try:
+            txt = open(path, errors='ignore').read()
+        except OSError:
+            continue
+        if fn == 'Android.mk':
+            for stanza in re.split(r'include\s+\$\(CLEAR_VARS\)', txt):
+                if 'LOCAL_PROPRIETARY_MODULE' not in stanza and not re.search(
+                        r'LOCAL_VENDOR_MODULE\s*:=\s*true', stanza):
+                    continue
+                m = re.search(r'LOCAL_MODULE\s*:=\s*([^\s]+)', stanza)
+                if not m:
+                    continue
+                for st in (re.findall(r'LOCAL_MODULE_STEM\s*:=\s*([^\s]+)', stanza) or [m.group(1)]):
+                    names.setdefault(st, []).append(path)
+        else:
+            for name, body in re.findall(
+                    r'\b(?:cc_binary|cc_library_shared|prebuilt_executable|prebuilt_etc(?:_xml)?)'
+                    r'\s*\{\s*name:\s*"([^"]+)"(.*?)\n\}', txt, re.S):
+                if not re.search(r'\b(vendor|proprietary|soc_specific):\s*true', body):
+                    continue
+                for st in (re.findall(r'stem:\s*"([^"]+)"', body) or [name]):
+                    names.setdefault(st, []).append(path)
+
+static = sorted({p for b, ps in ours.items() if b in names for p in ps})
+print(f"\nSTATIC (Make/bp module name match; confirm against a build error): {len(static)}")
+for p in static:
+    base = os.path.basename(p)
+    print(f"  {p}  <- {names[base][0]}")
 PY
