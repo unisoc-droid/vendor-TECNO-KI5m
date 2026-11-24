@@ -15,8 +15,6 @@ vendor/bin/aiactiver_testbench
 vendor/bin/antiflashing
 vendor/bin/audiodumpclient
 vendor/bin/bootcheckbox
-vendor/bin/boringssl_self_test32
-vendor/bin/boringssl_self_test64
 vendor/bin/btools
 vendor/bin/charge
 vendor/bin/charged
@@ -138,9 +136,7 @@ vendor/bin/tranlogconfig
 vendor/bin/tsupplicant
 vendor/bin/turbocloudservice
 vendor/bin/turbopower
-vendor/bin/uclampset
 vendor/bin/uniber
-vendor/bin/vndservice
 vendor/bin/yloglite
 vendor/bin/yloglitectl
 vendor/bin/yloglitekat

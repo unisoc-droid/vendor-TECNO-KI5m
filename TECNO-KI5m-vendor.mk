@@ -78,8 +78,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/antiflashing:$(TARGET_COPY_OUT_VENDOR)/bin/antiflashing \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/audiodumpclient:$(TARGET_COPY_OUT_VENDOR)/bin/audiodumpclient \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/bootcheckbox:$(TARGET_COPY_OUT_VENDOR)/bin/bootcheckbox \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/btools:$(TARGET_COPY_OUT_VENDOR)/bin/btools \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/charge:$(TARGET_COPY_OUT_VENDOR)/bin/charge \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/charged:$(TARGET_COPY_OUT_VENDOR)/bin/charged \
@@ -201,9 +199,7 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tsupplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tsupplicant \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/turbocloudservice:$(TARGET_COPY_OUT_VENDOR)/bin/turbocloudservice \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/turbopower:$(TARGET_COPY_OUT_VENDOR)/bin/turbopower \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uclampset:$(TARGET_COPY_OUT_VENDOR)/bin/uclampset \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uniber:$(TARGET_COPY_OUT_VENDOR)/bin/uniber \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/yloglite:$(TARGET_COPY_OUT_VENDOR)/bin/yloglite \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/yloglitectl:$(TARGET_COPY_OUT_VENDOR)/bin/yloglitectl \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/yloglitekat:$(TARGET_COPY_OUT_VENDOR)/bin/yloglitekat \
