@@ -95,20 +95,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fpsmgr:$(TARGET_COPY_OUT_VENDOR)/bin/fpsmgr \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service.unisoc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.cas@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.cas@1.2-service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.clearkey:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.clearkey \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service.trusty \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.graphics.composer@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.composer@2.1-service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.health@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.health@2.1-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.media.c2@1.1-unisoc-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.1-unisoc-service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.power.stats-service.example:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.power.stats-service.example \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.rebootescrow-service.default:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.rebootescrow-service.default \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.security.keymint@1.0-unisoc.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint@1.0-unisoc.service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.sensors@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@1.0-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
@@ -985,7 +975,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.5-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@4.0-impl-arm.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-arm.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@4.0-impl-arm.so \
@@ -1478,10 +1467,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libjpegenc_sw_sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpegenc_sw_sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkernelbootcp.trusty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkernelbootcp.trusty.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkey.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeystore-engine-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-engine-wifi-hidl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libkeystore-wifi-hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeystore-wifi-hidl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/liblcsagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblcsagent.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/liblcscp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblcscp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/liblcsmgt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblcsmgt.so \
@@ -1532,7 +1517,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libportrait_repair_ppl3_ocl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libportrait_repair_ppl3_ocl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libpowerhal_cli.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhal_cli.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libril-lite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-lite.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libril-private.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-private.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/librilcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilcore.so \
@@ -1546,7 +1530,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensornpi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensornpi.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsensorsdrvcfg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorsdrvcfg.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsl_fp_impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsl_fp_impl.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsprd_faceanalyze_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprd_faceanalyze_adapter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsprd_mfsr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprd_mfsr.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libsprd_omx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsprd_omx_core.so \
@@ -1614,8 +1597,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwifi-hal-unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-unisoc.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libyuv420_scaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuv420_scaler.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libz_stable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libz_stable.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/PQTune.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libFactoryRadioTest.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/libalsps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libalsps.so \
@@ -1628,8 +1609,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdtsaudio.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.nxp.eventprocessor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.eventprocessor@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.nxp.nxpese@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpese@1.0.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.nxp.nxpnfc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfc@2.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.nxpnfclegacy@1.0.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0-adapter-helper.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.silead.hardware.fingerprintext@1.0.so \

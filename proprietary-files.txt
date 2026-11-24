@@ -32,20 +32,10 @@ vendor/bin/fm_tools
 vendor/bin/fpsmgr
 vendor/bin/gpsd
 vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
-vendor/bin/hw/android.hardware.cas@1.2-service
-vendor/bin/hw/android.hardware.drm@1.4-service.clearkey
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service.trusty
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service
-vendor/bin/hw/android.hardware.graphics.composer@2.1-service
-vendor/bin/hw/android.hardware.health@2.1-service
 vendor/bin/hw/android.hardware.media.c2@1.1-unisoc-service
-vendor/bin/hw/android.hardware.nfc@1.2-service
-vendor/bin/hw/android.hardware.power.stats-service.example
-vendor/bin/hw/android.hardware.rebootescrow-service.default
 vendor/bin/hw/android.hardware.security.keymint@1.0-unisoc.service
-vendor/bin/hw/android.hardware.sensors@1.0-service
 vendor/bin/hw/android.hardware.usb@1.1-service
 vendor/bin/hw/android.hardware.wifi@1.0-service
 vendor/bin/hw/hostapd
@@ -923,7 +913,6 @@ vendor/lib/camera.device@3.5-external-impl-sprd.so
 vendor/lib/camera.device@3.5-impl-sprd.so
 vendor/lib/camera.device@3.6-external-impl-sprd.so
 vendor/lib/egl/libGLES_mali.so
-vendor/lib/framework-permission-aidl-cpp.so
 vendor/lib/hw/android.hardware.camera.provider@2.4-impl-sprd.so
 vendor/lib/hw/android.hardware.graphics.allocator@4.0-impl-arm.so
 vendor/lib/hw/android.hardware.graphics.mapper@4.0-impl-arm.so
@@ -1416,10 +1405,6 @@ vendor/lib64/libjpeg_hw_sprd.so
 vendor/lib64/libjpegenc_sw_sprd.so
 vendor/lib64/libkernelbootcp.trusty.so
 vendor/lib64/libkey.so
-vendor/lib64/libkeymaster_portable.so
-vendor/lib64/libkeymint.so
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
 vendor/lib64/liblcsagent.so
 vendor/lib64/liblcscp.so
 vendor/lib64/liblcsmgt.so
@@ -1470,7 +1455,6 @@ vendor/lib64/libpdalgo.so
 vendor/lib64/libpn557_fw.so
 vendor/lib64/libportrait_repair_ppl3_ocl.so
 vendor/lib64/libpowerhal_cli.so
-vendor/lib64/libpuresoftkeymasterdevice.so
 vendor/lib64/libril-lite.so
 vendor/lib64/libril-private.so
 vendor/lib64/librilcore.so
@@ -1484,7 +1468,6 @@ vendor/lib64/libsensorlistcfg.so
 vendor/lib64/libsensornpi.so
 vendor/lib64/libsensorsdrvcfg.so
 vendor/lib64/libsl_fp_impl.so
-vendor/lib64/libsoft_attestation_cert.so
 vendor/lib64/libsprd_faceanalyze_adapter.so
 vendor/lib64/libsprd_mfsr.so
 vendor/lib64/libsprd_omx_core.so
@@ -1552,8 +1535,6 @@ vendor/lib64/libwcn-vendor.so
 vendor/lib64/libwifi-hal-unisoc.so
 vendor/lib64/libwifi-hal.so
 vendor/lib64/libyuv420_scaler.so
-vendor/lib64/libz_stable.so
-vendor/lib64/nfc_nci_nxp.so
 vendor/lib64/npidevice/PQTune.ums9230.so
 vendor/lib64/npidevice/libFactoryRadioTest.so
 vendor/lib64/npidevice/libalsps.so
@@ -1566,8 +1547,6 @@ vendor/lib64/soundfx/libbundlewrapper2.so
 vendor/lib64/soundfx/libdtsaudio.so
 vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
 vendor/lib64/vendor.nxp.eventprocessor@1.0.so
-vendor/lib64/vendor.nxp.nxpese@1.0.so
-vendor/lib64/vendor.nxp.nxpnfc@2.0.so
 vendor/lib64/vendor.nxp.nxpnfclegacy@1.0.so
 vendor/lib64/vendor.silead.hardware.fingerprintext@1.0-adapter-helper.so
 vendor/lib64/vendor.silead.hardware.fingerprintext@1.0.so
