@@ -1169,7 +1169,6 @@ vendor/lib/libverify.so
 vendor/lib/libvsp_ca.so
 vendor/lib/libwcn-vendor.so
 vendor/lib/libwifi-hal-unisoc.so
-vendor/lib/libwifi-hal.so
 vendor/lib/libwpa_client.so
 vendor/lib/libwvhidl.so
 vendor/lib/libyuv420_scaler.so
@@ -1513,7 +1512,6 @@ vendor/lib64/libverify.so
 vendor/lib64/libvsp_ca.so
 vendor/lib64/libwcn-vendor.so
 vendor/lib64/libwifi-hal-unisoc.so
-vendor/lib64/libwifi-hal.so
 vendor/lib64/libyuv420_scaler.so
 vendor/lib64/npidevice/PQTune.ums9230.so
 vendor/lib64/npidevice/libFactoryRadioTest.so

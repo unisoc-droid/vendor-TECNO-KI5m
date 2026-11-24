@@ -1231,7 +1231,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libvsp_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvsp_ca.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwcn-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwcn-vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwifi-hal-unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal-unisoc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwifi-hal.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libyuv420_scaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuv420_scaler.so \
@@ -1575,7 +1574,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libvsp_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvsp_ca.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwcn-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwcn-vendor.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwifi-hal-unisoc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-unisoc.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libwifi-hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libyuv420_scaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuv420_scaler.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/PQTune.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/PQTune.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libFactoryRadioTest.so \
