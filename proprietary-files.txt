@@ -907,7 +907,6 @@ vendor/lib/hw/face.default.so
 vendor/lib/hw/fingerprint.silead.default.so
 vendor/lib/hw/fpsensor_fingerprint.default.so
 vendor/lib/hw/gps.default.so
-vendor/lib/hw/gralloc.default.so
 vendor/lib/hw/gsp.ums9230.so
 vendor/lib/hw/hwcomposer.ums9230.so
 vendor/lib/hw/libAlgo_Config.so
@@ -1275,7 +1274,6 @@ vendor/lib64/hw/face.default.so
 vendor/lib64/hw/fingerprint.silead.default.so
 vendor/lib64/hw/fpsensor_fingerprint.default.so
 vendor/lib64/hw/gps.default.so
-vendor/lib64/hw/gralloc.default.so
 vendor/lib64/hw/gsp.ums9230.so
 vendor/lib64/hw/hwcomposer.ums9230.so
 vendor/lib64/hw/libAlgo_Config.so

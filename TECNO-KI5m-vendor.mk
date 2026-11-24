@@ -969,7 +969,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.silead.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fpsensor_fingerprint.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/gsp.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gsp.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/hwcomposer.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/libAlgo_Config.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libAlgo_Config.so \
@@ -1337,7 +1336,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/fingerprint.silead.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.silead.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/fpsensor_fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fpsensor_fingerprint.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/gsp.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gsp.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/hwcomposer.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/libAlgo_Config.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libAlgo_Config.so \
