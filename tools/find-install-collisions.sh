@@ -4,7 +4,15 @@
 # Run from AOSP root after a build reaches "writing build rules" (even a failed
 # one leaves installs-*.mk behind). Exits 0 always; prints collisions.
 set -u
-cd "$(dirname "$0")/../../.." || exit 1
+# Locate AOSP root by walking up until build/make/core/main.mk is found.
+SELF_DIR="$(cd "$(dirname "$0")" && pwd)"
+ROOT="$SELF_DIR"
+while [ ! -f "$ROOT/build/make/core/main.mk" ]; do
+  PARENT="$(dirname "$ROOT")"
+  [ "$PARENT" = "$ROOT" ] && { echo "Cannot find AOSP root above $SELF_DIR"; exit 1; }
+  ROOT="$PARENT"
+done
+cd "$ROOT" || exit 1
 
 INSTALLS=$(ls out/soong/installs-*.mk 2>/dev/null | head -1)
 if [ -z "$INSTALLS" ]; then
@@ -39,17 +47,15 @@ with open(mk) as f:
             pass
         dests.add(dst)
 
-# All install targets in the Soong installs file
+# All install targets in the Soong installs file. Two forms appear:
+#   out/target/product/<dev>/vendor/...: ...
+#   $(PRODUCT_OUT)/vendor/...: ...
 txt = open(installs, errors='ignore').read()
-# Targets are absolute out/target/product/<dev>/... paths
-targets = set(re.findall(r'(out/target/product/[^\s:]+)', txt))
-# Keep only the part after the product dir
-prod_re = re.compile(r'^out/target/product/[^/]+/(.*)$')
 soong_paths = set()
-for t in targets:
-    m = prod_re.match(t)
-    if m:
-        soong_paths.add(m.group(1))
+for t in re.findall(r'out/target/product/[^/\s:]+/([^\s:]+)', txt):
+    soong_paths.add(t)
+for t in re.findall(r'\$\(PRODUCT_OUT\)/([^\s:]+)', txt):
+    soong_paths.add(t)
 
 collisions = sorted(dests & soong_paths)
 print(f"PRODUCT_COPY_FILES dests: {len(dests)}")
