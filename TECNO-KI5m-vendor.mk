@@ -1655,7 +1655,6 @@ PRODUCT_PACKAGES += \
     com.nxp.ls \
     android.hardware.security.keymint@1.0-unisoc.service \
     manifest_android.hardware.sensors@1.0 \
-    android.hardware.thermal@2.0-service \
     manifest_android.hardware.wifi.hostapd \
     manifest_android.hardware.wifi.supplicant \
     lights \

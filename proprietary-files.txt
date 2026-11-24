@@ -849,7 +849,6 @@ vendor/etc/uniber.conf
 vendor/etc/usb_audio_policy_configuration.xml
 vendor/etc/vintf/manifest/android.hardware.security.keymint@1.0-unisoc.service.xml
 vendor/etc/vintf/manifest/android.hardware.sensors@1.0.xml;MODULE=manifest_android.hardware.sensors@1.0
-vendor/etc/vintf/manifest/android.hardware.thermal@2.0-service.xml
 vendor/etc/vintf/manifest/android.hardware.wifi.hostapd.xml;MODULE=manifest_android.hardware.wifi.hostapd
 vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml;MODULE=manifest_android.hardware.wifi.supplicant
 vendor/etc/vintf/manifest/lights.xml

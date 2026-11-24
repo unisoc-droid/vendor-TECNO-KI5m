@@ -112,4 +112,45 @@ print(f"\nSTATIC (Make/bp module name match; confirm against a build error): {le
 for p in static:
     base = os.path.basename(p)
     print(f"  {p}  <- {names[base][0]}")
+
+# Third pass: AOSP vintf_fragments (literal .xml or :filegroup) always install
+# to vendor/etc/vintf/manifest/. Resolve filegroups first.
+import os
+fg = {}          # module name -> set of xml basenames
+for dp, ds, fs in os.walk('.'):
+    rel = dp[2:] if dp.startswith('./') else dp
+    if any(rel == s or rel.startswith(s + '/') for s in ('vendor/tecno', 'out', '.repo', 'prebuilts')):
+        ds[:] = []
+        continue
+    if 'Android.bp' not in fs:
+        continue
+    txt = open(os.path.join(dp, 'Android.bp'), errors='ignore').read()
+    for name, body in re.findall(r'filegroup\s*\{\s*name:\s*"([^"]+)"(.*?)\n\}', txt, re.S):
+        fg.setdefault(name, set()).update(os.path.basename(x)
+                                          for x in re.findall(r'"([^"]+\.xml)"', body))
+
+frag = set()     # manifest basenames AOSP installs
+for dp, ds, fs in os.walk('.'):
+    rel = dp[2:] if dp.startswith('./') else dp
+    if any(rel == s or rel.startswith(s + '/') for s in ('vendor/tecno', 'out', '.repo', 'prebuilts')):
+        ds[:] = []
+        continue
+    for fn in ('Android.bp', 'Android.mk'):
+        if fn not in fs:
+            continue
+        txt = open(os.path.join(dp, fn), errors='ignore').read()
+        for m in re.finditer(r'vintf_fragments:\s*\[([^\]]+)\]|LOCAL_VINTF_FRAGMENTS\s*:?\+?=\s*([^\s\\]+)', txt):
+            for ref in (re.findall(r'"([^"]+)"', m.group(1) or '') or [m.group(2)]):
+                if not ref:
+                    continue
+                if ref.startswith(':'):
+                    for mod in [x.strip() for x in ref[1:].split(':') if x.strip()]:
+                        frag |= fg.get(mod, set())
+                elif ref.endswith('.xml'):
+                    frag.add(os.path.basename(ref))
+
+vman = sorted(p for p in dests if '/etc/vintf/manifest/' in p and os.path.basename(p) in frag)
+print(f"\nVINTF FRAGMENT COLLISIONS (must drop ours): {len(vman)}")
+for p in vman:
+    print(f"  {p}")
 PY
