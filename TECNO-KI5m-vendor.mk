@@ -100,7 +100,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.media.c2@1.1-unisoc-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.1-unisoc-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.security.keymint@1.0-unisoc.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint@1.0-unisoc.service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/urild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/urild \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service \
