@@ -1578,7 +1578,6 @@ vendor/odm/etc/build.prop
 vendor/odm/etc/group
 vendor/odm/etc/passwd
 vendor/odm_dlkm/etc/NOTICE.xml.gz
-vendor/odm_dlkm/etc/build.prop
 vendor/overlay/AndroidMarlin3WifiOverlayResources/AndroidMarlin3WifiOverlayResources.apk
 vendor/overlay/AndroidWifiOverlayResources/AndroidWifiOverlayResources.apk
 vendor/overlay/NetworkStackOverlay.apk

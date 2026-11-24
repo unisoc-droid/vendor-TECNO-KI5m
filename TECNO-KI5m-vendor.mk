@@ -1640,7 +1640,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/odm/etc/group:$(TARGET_COPY_OUT_ODM)/odm/etc/group \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/odm/etc/passwd:$(TARGET_COPY_OUT_ODM)/odm/etc/passwd \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/NOTICE.xml.gz \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_VENDOR)/odm_dlkm/etc/build.prop \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/ueventd.rc:$(TARGET_COPY_OUT_VENDOR)/ueventd.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/usr/idc/adaptive_ts.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/adaptive_ts.idc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/usr/idc/focaltech_ats.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/focaltech_ats.idc \
