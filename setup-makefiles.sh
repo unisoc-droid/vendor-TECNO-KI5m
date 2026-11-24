@@ -34,6 +34,11 @@ cat << 'EOF' >> "${BOARDMK}"
 # Stock inode metadata (uid/gid/mode) for every tracked blob, from the image.
 TARGET_FS_CONFIG_GEN += vendor/tecno/TECNO-KI5m/proprietary-fsconfig.txt
 
+# VINTF compatibility matrices (stock V218).
+# Build system prohibits these in PRODUCT_COPY_FILES; declare via proper variables.
+BOARD_VENDOR_COMPATIBILITY_MATRIX_FILE += vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/vintf/compatibility_matrix.xml
+DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += vendor/tecno/TECNO-KI5m/proprietary/product/etc/vintf/compatibility_matrix.xml
+
 # Optional prebuilt vendor image fallback. Unset by default so the tracked
 # blobs are the build input.
 ifeq ($(KI5M_USE_PREBUILT_VENDORIMAGE),true)

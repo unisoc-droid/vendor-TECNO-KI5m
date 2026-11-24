@@ -1076,7 +1076,7 @@ vendor/etc/thermal.conf
 vendor/etc/tran_camprofiles.xml
 vendor/etc/uniber.conf
 vendor/etc/usb_audio_policy_configuration.xml
-vendor/etc/vintf/compatibility_matrix.xml
+
 vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml;MODULE=manifest_android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/vintf/manifest/android.hardware.gatekeeper@1.0-service.trusty.xml;MODULE=manifest_android.hardware.gatekeeper@1.0-service.trusty
 vendor/etc/vintf/manifest/android.hardware.health@2.1.xml;MODULE=manifest_android.hardware.health@2.1
@@ -2282,4 +2282,4 @@ product/etc/sysconfig/google.xml
 product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml
 product/etc/sysconfig/preinstalled-packages-platform-overlays.xml
 product/etc/sysconfig/wellbeing.xml
-product/etc/vintf/compatibility_matrix.xml
+

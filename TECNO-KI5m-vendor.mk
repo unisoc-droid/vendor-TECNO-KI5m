@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/preinstalled-packages-platform-overlays.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-overlays.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/product/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/vintf/compatibility_matrix.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/apexd.factorytest.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/apexd.factorytest.rc \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/aprd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aprd.rc \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/dataLogDaemon.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dataLogDaemon.rc \
@@ -1149,7 +1148,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/tran_camprofiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tran_camprofiles.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/uniber.conf:$(TARGET_COPY_OUT_VENDOR)/etc/uniber.conf \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/vintf/compatibility_matrix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/compatibility_matrix.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_hals/unisoc_wifi_hal_arm64.xml \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/x695FreeFiredModelLabel.txt:$(TARGET_COPY_OUT_VENDOR)/etc/x695FreeFiredModelLabel.txt \
