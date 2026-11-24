@@ -331,7 +331,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.security.keymint@1.0-unisoc.service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint@1.0-unisoc.service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.usb@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.wifi.supplicant-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi.supplicant-service.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/antiflashing.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/antiflashing.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/autotest.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/autotest.rc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/etc/init/charge.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/charge.rc \

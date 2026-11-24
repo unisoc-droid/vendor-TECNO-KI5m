@@ -268,7 +268,6 @@ vendor/etc/init/android.hardware.media.c2@1.1-unisoc-service.rc
 vendor/etc/init/android.hardware.security.keymint@1.0-unisoc.service.rc
 vendor/etc/init/android.hardware.usb@1.1-service.rc
 vendor/etc/init/android.hardware.wifi.supplicant-service.rc
-vendor/etc/init/android.hardware.wifi@1.0-service.rc
 vendor/etc/init/antiflashing.rc
 vendor/etc/init/autotest.rc
 vendor/etc/init/charge.rc
