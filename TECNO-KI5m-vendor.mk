@@ -81,86 +81,32 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/app/Manual/oat/arm64/Manual.vdex:$(TARGET_COPY_OUT_VENDOR)/app/Manual/oat/arm64/Manual.vdex \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/app/ProxyNFwLocation/oat/arm64/ProxyNFwLocation.odex:$(TARGET_COPY_OUT_VENDOR)/app/ProxyNFwLocation/oat/arm64/ProxyNFwLocation.odex \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/app/ProxyNFwLocation/oat/arm64/ProxyNFwLocation.vdex:$(TARGET_COPY_OUT_VENDOR)/app/ProxyNFwLocation/oat/arm64/ProxyNFwLocation.vdex \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/[:$(TARGET_COPY_OUT_VENDOR)/bin/[ \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/acpi:$(TARGET_COPY_OUT_VENDOR)/bin/acpi \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/adbtestmode:$(TARGET_COPY_OUT_VENDOR)/bin/adbtestmode \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/aiactiver_testbench:$(TARGET_COPY_OUT_VENDOR)/bin/aiactiver_testbench \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/antiflashing:$(TARGET_COPY_OUT_VENDOR)/bin/antiflashing \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/applypatch:$(TARGET_COPY_OUT_VENDOR)/bin/applypatch \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/audiodumpclient:$(TARGET_COPY_OUT_VENDOR)/bin/audiodumpclient \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/awk:$(TARGET_COPY_OUT_VENDOR)/bin/awk \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/base64:$(TARGET_COPY_OUT_VENDOR)/bin/base64 \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/basename:$(TARGET_COPY_OUT_VENDOR)/bin/basename \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/blockdev:$(TARGET_COPY_OUT_VENDOR)/bin/blockdev \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/bootcheckbox:$(TARGET_COPY_OUT_VENDOR)/bin/bootcheckbox \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/boringssl_self_test32:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test32 \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/boringssl_self_test64:$(TARGET_COPY_OUT_VENDOR)/bin/boringssl_self_test64 \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/btools:$(TARGET_COPY_OUT_VENDOR)/bin/btools \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cal:$(TARGET_COPY_OUT_VENDOR)/bin/cal \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cat:$(TARGET_COPY_OUT_VENDOR)/bin/cat \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/charge:$(TARGET_COPY_OUT_VENDOR)/bin/charge \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/charged:$(TARGET_COPY_OUT_VENDOR)/bin/charged \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/chattr:$(TARGET_COPY_OUT_VENDOR)/bin/chattr \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/chcon:$(TARGET_COPY_OUT_VENDOR)/bin/chcon \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/chgrp:$(TARGET_COPY_OUT_VENDOR)/bin/chgrp \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/chmod:$(TARGET_COPY_OUT_VENDOR)/bin/chmod \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/chown:$(TARGET_COPY_OUT_VENDOR)/bin/chown \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/chroot:$(TARGET_COPY_OUT_VENDOR)/bin/chroot \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/chrt:$(TARGET_COPY_OUT_VENDOR)/bin/chrt \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cksum:$(TARGET_COPY_OUT_VENDOR)/bin/cksum \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/clear:$(TARGET_COPY_OUT_VENDOR)/bin/clear \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cmp:$(TARGET_COPY_OUT_VENDOR)/bin/cmp \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/comm:$(TARGET_COPY_OUT_VENDOR)/bin/comm \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/connmgr:$(TARGET_COPY_OUT_VENDOR)/bin/connmgr \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/connmgr_cli:$(TARGET_COPY_OUT_VENDOR)/bin/connmgr_cli \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cp:$(TARGET_COPY_OUT_VENDOR)/bin/cp \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cp_diskserver:$(TARGET_COPY_OUT_VENDOR)/bin/cp_diskserver \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cp_dump_dbg:$(TARGET_COPY_OUT_VENDOR)/bin/cp_dump_dbg \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cpio:$(TARGET_COPY_OUT_VENDOR)/bin/cpio \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cplogctl:$(TARGET_COPY_OUT_VENDOR)/bin/cplogctl \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/cut:$(TARGET_COPY_OUT_VENDOR)/bin/cut \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/date:$(TARGET_COPY_OUT_VENDOR)/bin/date \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/dcxsrv:$(TARGET_COPY_OUT_VENDOR)/bin/dcxsrv \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/dd:$(TARGET_COPY_OUT_VENDOR)/bin/dd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/devmem:$(TARGET_COPY_OUT_VENDOR)/bin/devmem \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/df:$(TARGET_COPY_OUT_VENDOR)/bin/df \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/diff:$(TARGET_COPY_OUT_VENDOR)/bin/diff \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/dirname:$(TARGET_COPY_OUT_VENDOR)/bin/dirname \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/dmesg:$(TARGET_COPY_OUT_VENDOR)/bin/dmesg \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/dos2unix:$(TARGET_COPY_OUT_VENDOR)/bin/dos2unix \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/du:$(TARGET_COPY_OUT_VENDOR)/bin/du \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/echo:$(TARGET_COPY_OUT_VENDOR)/bin/echo \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/egrep:$(TARGET_COPY_OUT_VENDOR)/bin/egrep \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/engpc:$(TARGET_COPY_OUT_VENDOR)/bin/engpc \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/engpcctl:$(TARGET_COPY_OUT_VENDOR)/bin/engpcctl \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/enhance_test:$(TARGET_COPY_OUT_VENDOR)/bin/enhance_test \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/env:$(TARGET_COPY_OUT_VENDOR)/bin/env \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/expand:$(TARGET_COPY_OUT_VENDOR)/bin/expand \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/expr:$(TARGET_COPY_OUT_VENDOR)/bin/expr \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/factorytest:$(TARGET_COPY_OUT_VENDOR)/bin/factorytest \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fallocate:$(TARGET_COPY_OUT_VENDOR)/bin/fallocate \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/false:$(TARGET_COPY_OUT_VENDOR)/bin/false \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fgrep:$(TARGET_COPY_OUT_VENDOR)/bin/fgrep \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/file:$(TARGET_COPY_OUT_VENDOR)/bin/file \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/find:$(TARGET_COPY_OUT_VENDOR)/bin/find \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/flock:$(TARGET_COPY_OUT_VENDOR)/bin/flock \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fm_tools:$(TARGET_COPY_OUT_VENDOR)/bin/fm_tools \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fmt:$(TARGET_COPY_OUT_VENDOR)/bin/fmt \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fpsmgr:$(TARGET_COPY_OUT_VENDOR)/bin/fpsmgr \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/free:$(TARGET_COPY_OUT_VENDOR)/bin/free \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/fsync:$(TARGET_COPY_OUT_VENDOR)/bin/fsync \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/getenforce:$(TARGET_COPY_OUT_VENDOR)/bin/getenforce \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/getevent:$(TARGET_COPY_OUT_VENDOR)/bin/getevent \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/getprop:$(TARGET_COPY_OUT_VENDOR)/bin/getprop \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/gpsd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/grep:$(TARGET_COPY_OUT_VENDOR)/bin/grep \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/groups:$(TARGET_COPY_OUT_VENDOR)/bin/groups \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/gunzip:$(TARGET_COPY_OUT_VENDOR)/bin/gunzip \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/gzip:$(TARGET_COPY_OUT_VENDOR)/bin/gzip \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/head:$(TARGET_COPY_OUT_VENDOR)/bin/head \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hostname:$(TARGET_COPY_OUT_VENDOR)/bin/hostname \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.audio.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service.unisoc:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service.unisoc \
@@ -206,68 +152,14 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/vendor.sprd.hardware.wcn@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.sprd.hardware.wcn@1.0-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/vendor.unisoc.hardware.power-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.unisoc.hardware.power-service \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/hwclock:$(TARGET_COPY_OUT_VENDOR)/bin/hwclock \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/i2cdetect:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdetect \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/i2cdump:$(TARGET_COPY_OUT_VENDOR)/bin/i2cdump \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/i2cget:$(TARGET_COPY_OUT_VENDOR)/bin/i2cget \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/i2cset:$(TARGET_COPY_OUT_VENDOR)/bin/i2cset \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/iconv:$(TARGET_COPY_OUT_VENDOR)/bin/iconv \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/id:$(TARGET_COPY_OUT_VENDOR)/bin/id \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/idlestat:$(TARGET_COPY_OUT_VENDOR)/bin/idlestat \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/ifconfig:$(TARGET_COPY_OUT_VENDOR)/bin/ifconfig \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/init.insmod.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.insmod.sh \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/inotifyd:$(TARGET_COPY_OUT_VENDOR)/bin/inotifyd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/insmod:$(TARGET_COPY_OUT_VENDOR)/bin/insmod \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/install:$(TARGET_COPY_OUT_VENDOR)/bin/install \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/ionice:$(TARGET_COPY_OUT_VENDOR)/bin/ionice \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/iorenice:$(TARGET_COPY_OUT_VENDOR)/bin/iorenice \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/iwnpi:$(TARGET_COPY_OUT_VENDOR)/bin/iwnpi \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/kill:$(TARGET_COPY_OUT_VENDOR)/bin/kill \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/killall:$(TARGET_COPY_OUT_VENDOR)/bin/killall \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/ln:$(TARGET_COPY_OUT_VENDOR)/bin/ln \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/load_policy:$(TARGET_COPY_OUT_VENDOR)/bin/load_policy \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/log:$(TARGET_COPY_OUT_VENDOR)/bin/log \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/logname:$(TARGET_COPY_OUT_VENDOR)/bin/logname \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/logwrapper:$(TARGET_COPY_OUT_VENDOR)/bin/logwrapper \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/losetup:$(TARGET_COPY_OUT_VENDOR)/bin/losetup \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/ls:$(TARGET_COPY_OUT_VENDOR)/bin/ls \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/lsattr:$(TARGET_COPY_OUT_VENDOR)/bin/lsattr \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/lsmod:$(TARGET_COPY_OUT_VENDOR)/bin/lsmod \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/lsof:$(TARGET_COPY_OUT_VENDOR)/bin/lsof \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/lspci:$(TARGET_COPY_OUT_VENDOR)/bin/lspci \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/lsusb:$(TARGET_COPY_OUT_VENDOR)/bin/lsusb \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/md5sum:$(TARGET_COPY_OUT_VENDOR)/bin/md5sum \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/microcom:$(TARGET_COPY_OUT_VENDOR)/bin/microcom \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mkdir:$(TARGET_COPY_OUT_VENDOR)/bin/mkdir \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mkfifo:$(TARGET_COPY_OUT_VENDOR)/bin/mkfifo \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mknod:$(TARGET_COPY_OUT_VENDOR)/bin/mknod \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mkswap:$(TARGET_COPY_OUT_VENDOR)/bin/mkswap \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mktemp:$(TARGET_COPY_OUT_VENDOR)/bin/mktemp \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/modem_control:$(TARGET_COPY_OUT_VENDOR)/bin/modem_control \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/modem_ctrl_dbg:$(TARGET_COPY_OUT_VENDOR)/bin/modem_ctrl_dbg \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/modinfo:$(TARGET_COPY_OUT_VENDOR)/bin/modinfo \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/modprobe:$(TARGET_COPY_OUT_VENDOR)/bin/modprobe \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/more:$(TARGET_COPY_OUT_VENDOR)/bin/more \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mount:$(TARGET_COPY_OUT_VENDOR)/bin/mount \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mountpoint:$(TARGET_COPY_OUT_VENDOR)/bin/mountpoint \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/mv:$(TARGET_COPY_OUT_VENDOR)/bin/mv \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/nc:$(TARGET_COPY_OUT_VENDOR)/bin/nc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/netcat:$(TARGET_COPY_OUT_VENDOR)/bin/netcat \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/netstat:$(TARGET_COPY_OUT_VENDOR)/bin/netstat \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/nice:$(TARGET_COPY_OUT_VENDOR)/bin/nice \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/nl:$(TARGET_COPY_OUT_VENDOR)/bin/nl \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/nohup:$(TARGET_COPY_OUT_VENDOR)/bin/nohup \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/nproc:$(TARGET_COPY_OUT_VENDOR)/bin/nproc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/nsenter:$(TARGET_COPY_OUT_VENDOR)/bin/nsenter \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/nvmerge:$(TARGET_COPY_OUT_VENDOR)/bin/nvmerge \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/od:$(TARGET_COPY_OUT_VENDOR)/bin/od \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/paste:$(TARGET_COPY_OUT_VENDOR)/bin/paste \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/patch:$(TARGET_COPY_OUT_VENDOR)/bin/patch \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/pgrep:$(TARGET_COPY_OUT_VENDOR)/bin/pgrep \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/phasecheckserver:$(TARGET_COPY_OUT_VENDOR)/bin/phasecheckserver \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/pidof:$(TARGET_COPY_OUT_VENDOR)/bin/pidof \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/pkill:$(TARGET_COPY_OUT_VENDOR)/bin/pkill \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/pmap:$(TARGET_COPY_OUT_VENDOR)/bin/pmap \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/pnpmgr:$(TARGET_COPY_OUT_VENDOR)/bin/pnpmgr \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/power/backlight/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/backlight/readme \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/power/cpu/dvfs/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/cpu/dvfs/readme \
@@ -307,102 +199,30 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/power/tops/tops:$(TARGET_COPY_OUT_VENDOR)/bin/power/tops/tops \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/power/total/readme:$(TARGET_COPY_OUT_VENDOR)/bin/power/total/readme \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/power/total/tool/total.sh:$(TARGET_COPY_OUT_VENDOR)/bin/power/total/tool/total.sh \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/printenv:$(TARGET_COPY_OUT_VENDOR)/bin/printenv \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/printf:$(TARGET_COPY_OUT_VENDOR)/bin/printf \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/ps:$(TARGET_COPY_OUT_VENDOR)/bin/ps \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/pwd:$(TARGET_COPY_OUT_VENDOR)/bin/pwd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/readelf:$(TARGET_COPY_OUT_VENDOR)/bin/readelf \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/readlink:$(TARGET_COPY_OUT_VENDOR)/bin/readlink \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/realpath:$(TARGET_COPY_OUT_VENDOR)/bin/realpath \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/refnotify:$(TARGET_COPY_OUT_VENDOR)/bin/refnotify \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/renice:$(TARGET_COPY_OUT_VENDOR)/bin/renice \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/restorecon:$(TARGET_COPY_OUT_VENDOR)/bin/restorecon \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/rm:$(TARGET_COPY_OUT_VENDOR)/bin/rm \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/rmdir:$(TARGET_COPY_OUT_VENDOR)/bin/rmdir \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/rmmod:$(TARGET_COPY_OUT_VENDOR)/bin/rmmod \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/rpmbserver:$(TARGET_COPY_OUT_VENDOR)/bin/rpmbserver \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/rtcwake:$(TARGET_COPY_OUT_VENDOR)/bin/rtcwake \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/runcon:$(TARGET_COPY_OUT_VENDOR)/bin/runcon \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sed:$(TARGET_COPY_OUT_VENDOR)/bin/sed \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sendevent:$(TARGET_COPY_OUT_VENDOR)/bin/sendevent \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/seq:$(TARGET_COPY_OUT_VENDOR)/bin/seq \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/setenforce:$(TARGET_COPY_OUT_VENDOR)/bin/setenforce \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/setprop:$(TARGET_COPY_OUT_VENDOR)/bin/setprop \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/setsid:$(TARGET_COPY_OUT_VENDOR)/bin/setsid \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sh:$(TARGET_COPY_OUT_VENDOR)/bin/sh \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sha1sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha1sum \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sha224sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha224sum \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sha256sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha256sum \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sha384sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha384sum \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sha512sum:$(TARGET_COPY_OUT_VENDOR)/bin/sha512sum \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sleep:$(TARGET_COPY_OUT_VENDOR)/bin/sleep \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/slogmodem_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/slogmodem_vendor \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sort:$(TARGET_COPY_OUT_VENDOR)/bin/sort \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/split:$(TARGET_COPY_OUT_VENDOR)/bin/split \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sprdstorageproxyd:$(TARGET_COPY_OUT_VENDOR)/bin/sprdstorageproxyd \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/srtd:$(TARGET_COPY_OUT_VENDOR)/bin/srtd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/start:$(TARGET_COPY_OUT_VENDOR)/bin/start \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/stat:$(TARGET_COPY_OUT_VENDOR)/bin/stat \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/stop:$(TARGET_COPY_OUT_VENDOR)/bin/stop \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/storage_feature_cloudctl:$(TARGET_COPY_OUT_VENDOR)/bin/storage_feature_cloudctl \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/strings:$(TARGET_COPY_OUT_VENDOR)/bin/strings \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/stty:$(TARGET_COPY_OUT_VENDOR)/bin/stty \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/swapoff:$(TARGET_COPY_OUT_VENDOR)/bin/swapoff \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/swapon:$(TARGET_COPY_OUT_VENDOR)/bin/swapon \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sync:$(TARGET_COPY_OUT_VENDOR)/bin/sync \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/sysctl:$(TARGET_COPY_OUT_VENDOR)/bin/sysctl \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/systemDebuggerd:$(TARGET_COPY_OUT_VENDOR)/bin/systemDebuggerd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tac:$(TARGET_COPY_OUT_VENDOR)/bin/tac \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tail:$(TARGET_COPY_OUT_VENDOR)/bin/tail \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tar:$(TARGET_COPY_OUT_VENDOR)/bin/tar \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/taskset:$(TARGET_COPY_OUT_VENDOR)/bin/taskset \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tee:$(TARGET_COPY_OUT_VENDOR)/bin/tee \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tee_rpc:$(TARGET_COPY_OUT_VENDOR)/bin/tee_rpc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/test:$(TARGET_COPY_OUT_VENDOR)/bin/test \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/thermald:$(TARGET_COPY_OUT_VENDOR)/bin/thermald \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/time:$(TARGET_COPY_OUT_VENDOR)/bin/time \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/timeout:$(TARGET_COPY_OUT_VENDOR)/bin/timeout \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/toolbox:$(TARGET_COPY_OUT_VENDOR)/bin/toolbox \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/top:$(TARGET_COPY_OUT_VENDOR)/bin/top \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/touch:$(TARGET_COPY_OUT_VENDOR)/bin/touch \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/toybox_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/toybox_vendor \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tr:$(TARGET_COPY_OUT_VENDOR)/bin/tr \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tranlog:$(TARGET_COPY_OUT_VENDOR)/bin/tranlog \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tranlogconfig:$(TARGET_COPY_OUT_VENDOR)/bin/tranlogconfig \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/true:$(TARGET_COPY_OUT_VENDOR)/bin/true \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/truncate:$(TARGET_COPY_OUT_VENDOR)/bin/truncate \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tsupplicant:$(TARGET_COPY_OUT_VENDOR)/bin/tsupplicant \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/tty:$(TARGET_COPY_OUT_VENDOR)/bin/tty \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/turbocloudservice:$(TARGET_COPY_OUT_VENDOR)/bin/turbocloudservice \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/turbopower:$(TARGET_COPY_OUT_VENDOR)/bin/turbopower \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uclampset:$(TARGET_COPY_OUT_VENDOR)/bin/uclampset \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/ulimit:$(TARGET_COPY_OUT_VENDOR)/bin/ulimit \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/umount:$(TARGET_COPY_OUT_VENDOR)/bin/umount \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uname:$(TARGET_COPY_OUT_VENDOR)/bin/uname \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uniber:$(TARGET_COPY_OUT_VENDOR)/bin/uniber \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uniq:$(TARGET_COPY_OUT_VENDOR)/bin/uniq \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/unix2dos:$(TARGET_COPY_OUT_VENDOR)/bin/unix2dos \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/unlink:$(TARGET_COPY_OUT_VENDOR)/bin/unlink \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/unshare:$(TARGET_COPY_OUT_VENDOR)/bin/unshare \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uptime:$(TARGET_COPY_OUT_VENDOR)/bin/uptime \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/usleep:$(TARGET_COPY_OUT_VENDOR)/bin/usleep \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uudecode:$(TARGET_COPY_OUT_VENDOR)/bin/uudecode \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uuencode:$(TARGET_COPY_OUT_VENDOR)/bin/uuencode \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/uuidgen:$(TARGET_COPY_OUT_VENDOR)/bin/uuidgen \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/vmstat:$(TARGET_COPY_OUT_VENDOR)/bin/vmstat \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/vndservice:$(TARGET_COPY_OUT_VENDOR)/bin/vndservice \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/vndservicemanager:$(TARGET_COPY_OUT_VENDOR)/bin/vndservicemanager \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/watch:$(TARGET_COPY_OUT_VENDOR)/bin/watch \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/wc:$(TARGET_COPY_OUT_VENDOR)/bin/wc \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/which:$(TARGET_COPY_OUT_VENDOR)/bin/which \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/whoami:$(TARGET_COPY_OUT_VENDOR)/bin/whoami \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/xargs:$(TARGET_COPY_OUT_VENDOR)/bin/xargs \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/xxd:$(TARGET_COPY_OUT_VENDOR)/bin/xxd \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/yes:$(TARGET_COPY_OUT_VENDOR)/bin/yes \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/yloglite:$(TARGET_COPY_OUT_VENDOR)/bin/yloglite \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/yloglitectl:$(TARGET_COPY_OUT_VENDOR)/bin/yloglitectl \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/yloglitekat:$(TARGET_COPY_OUT_VENDOR)/bin/yloglitekat \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/bin/zcat:$(TARGET_COPY_OUT_VENDOR)/bin/zcat \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/data/camera/watermark/watermark_1280x720.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_1280x720.nv21 \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/data/camera/watermark/watermark_1920x1080.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_1920x1080.nv21 \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/data/camera/watermark/watermark_2432x2432.nv21:$(TARGET_COPY_OUT_VENDOR)/data/camera/watermark/watermark_2432x2432.nv21 \
@@ -1270,7 +1090,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.5-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/enhance.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/enhance.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/framework-permission-aidl-cpp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.audio.effect@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@7.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/android.hardware.audio@7.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@7.0-impl.so \
@@ -1322,7 +1141,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vibrator.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/hw/vulkan.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libArcFilterImageEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libArcFilterImageEngine.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libDefog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefog.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libDualCam_OnliCalib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDualCam_OnliCalib.so \
@@ -1332,10 +1150,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGLES_mali.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libJiGanYuvSuperNight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJiGanYuvSuperNight.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libMNN.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMNN.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1 \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.1 \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libOpenCL.so.1.2:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so.1.2 \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libSegLite.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSegLite.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libSprdGpuFilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSprdGpuFilter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib/libSprdImageFilter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSprdImageFilter.so \
@@ -1829,7 +1643,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@3.5-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/camera.device@3.6-external-impl-sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl-sprd.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/enhance.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/enhance.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/ese_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_client.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/ese_spi_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ese_spi_nxp.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/framework-permission-aidl-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/framework-permission-aidl-cpp.so \
@@ -1883,7 +1696,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.transsion.hardware.camera.imgalgoservice@1.0-impl.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vibrator.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.ums9230.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/hw/vulkan.ums9230.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.ums9230.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libDefog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefog.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libDualCam_OnliCalib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDualCam_OnliCalib.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libFaceDetectV3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFaceDetectV3.so \
@@ -1891,10 +1703,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libFy-3A-Param.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFy-3A-Param.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLES_mali.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libMNN.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMNN.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libOpenCL.so.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1 \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libOpenCL.so.1.1:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1.1 \
-    vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libOpenCL.so.1.2:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so.1.2 \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libSegLite.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSegLite.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libSprdGpuFilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSprdGpuFilter.so \
     vendor/tecno/TECNO-KI5m/proprietary/vendor/lib64/libSprdImageFilter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSprdImageFilter.so \
