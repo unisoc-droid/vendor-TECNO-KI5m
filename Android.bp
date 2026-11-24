@@ -163,15 +163,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "power.stats-default",
-	owner: "tecno",
-	src: "proprietary/vendor/etc/vintf/manifest/power.stats-default.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "vendor-power-default",
 	owner: "tecno",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor-power-default.xml",

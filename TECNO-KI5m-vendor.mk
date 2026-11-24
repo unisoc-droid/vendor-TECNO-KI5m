@@ -1666,7 +1666,6 @@ PRODUCT_PACKAGES += \
     manifest_media_c2_V1_1_unisoc \
     manifest_trusty \
     manifest_memtrack \
-    power.stats-default \
     vendor-power-default \
     vendor.sprd.hardware.boot@1.2 \
     vendor.sprd.hardware.fingerprintmmi@1.0-service \

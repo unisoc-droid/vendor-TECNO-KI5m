@@ -860,7 +860,6 @@ vendor/etc/vintf/manifest/manifest_mdt.xml
 vendor/etc/vintf/manifest/manifest_media_c2_V1_1_unisoc.xml
 vendor/etc/vintf/manifest/manifest_trusty.xml
 vendor/etc/vintf/manifest/memtrack.xml;MODULE=manifest_memtrack
-vendor/etc/vintf/manifest/power.stats-default.xml
 vendor/etc/vintf/manifest/vendor-power-default.xml
 vendor/etc/vintf/manifest/vendor.sprd.hardware.boot@1.2.xml
 vendor/etc/vintf/manifest/vendor.sprd.hardware.fingerprintmmi@1.0-service.xml
