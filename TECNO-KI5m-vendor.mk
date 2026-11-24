@@ -72,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/privapp-permissions-google-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-system-ext.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/privapp-permissions-platform.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-platform.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/smartlink_sdk.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/smartlink_sdk.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/vintf/manifest.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/lib64/extractors/libaviextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/extractors/libaviextractor.so \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/lib64/extractors/libflvextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/extractors/libflvextractor.so \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/lib64/extractors/libunisocmpeg2extractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/extractors/libunisocmpeg2extractor.so \

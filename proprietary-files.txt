@@ -2258,7 +2258,7 @@ system_ext/etc/permissions/com.unisoc.xml
 system_ext/etc/permissions/privapp-permissions-google-system-ext.xml
 system_ext/etc/permissions/privapp-permissions-platform.xml
 system_ext/etc/permissions/smartlink_sdk.xml
-system_ext/etc/vintf/manifest.xml
+
 system_ext/lib64/extractors/libaviextractor.so
 system_ext/lib64/extractors/libflvextractor.so
 system_ext/lib64/extractors/libunisocmpeg2extractor.so
