@@ -2015,15 +2015,10 @@ system_ext/etc/init/vowifi.rc
 system_ext/etc/init/ylog.rc
 system_ext/etc/models/GatedConv_GLNet_256x256.tflite
 system_ext/etc/permissions/android.hardware.telephony.wifiordataonly.xml
-system_ext/etc/permissions/com.android.carrierconfig.xml
-system_ext/etc/permissions/com.android.emergency.xml
 system_ext/etc/permissions/com.android.lens.xml
 system_ext/etc/permissions/com.android.providers.calendar.xml
 system_ext/etc/permissions/com.android.providers.contacts.xml
 system_ext/etc/permissions/com.android.settings.intelligence.xml
-system_ext/etc/permissions/com.android.settings.xml
-system_ext/etc/permissions/com.android.storagemanager.xml
-system_ext/etc/permissions/com.android.systemui.xml
 system_ext/etc/permissions/com.sprd.enginecore.xml
 system_ext/etc/permissions/com.sprd.omacp.xml
 system_ext/etc/permissions/com.spreadtrum.ims.xml
@@ -2045,7 +2040,6 @@ system_ext/lib64/extractors/libunisocmpeg2extractor.so
 # --- product ---
 product/etc/default-permissions/default-permissions-google.xml
 product/etc/init/init.appturbo.rc
-product/etc/permissions/com.android.imsserviceentitlement.xml
 product/etc/permissions/com.android.lens.lig.xml
 product/etc/permissions/com.scorpio.securitycom.xml
 product/etc/permissions/com.sh.smart.caller.xml
@@ -2060,6 +2054,5 @@ product/etc/sysconfig/google-rollback-package-whitelist.xml
 product/etc/sysconfig/google-staged-installer-whitelist.xml
 product/etc/sysconfig/google.xml
 product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml
-product/etc/sysconfig/preinstalled-packages-platform-overlays.xml
 product/etc/sysconfig/wellbeing.xml
 

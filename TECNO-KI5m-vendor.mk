@@ -8,7 +8,6 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/default-permissions/default-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions-google.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/init/init.appturbo.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.appturbo.rc \
-    vendor/tecno/TECNO-KI5m/proprietary/product/etc/permissions/com.android.imsserviceentitlement.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.imsserviceentitlement.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/permissions/com.android.lens.lig.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.android.lens.lig.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/permissions/com.scorpio.securitycom.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.scorpio.securitycom.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/permissions/com.sh.smart.caller.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.sh.smart.caller.xml \
@@ -23,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/google-staged-installer-whitelist.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google-staged-installer-whitelist.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/google.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-handheld-product.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/preinstalled-packages-platform-overlays.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/preinstalled-packages-platform-overlays.xml \
     vendor/tecno/TECNO-KI5m/proprietary/product/etc/sysconfig/wellbeing.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/wellbeing.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/apexd.factorytest.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/apexd.factorytest.rc \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/aprd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aprd.rc \
@@ -49,15 +47,10 @@ PRODUCT_COPY_FILES += \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/init/ylog.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/ylog.rc \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/models/GatedConv_GLNet_256x256.tflite:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/models/GatedConv_GLNet_256x256.tflite \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/android.hardware.telephony.wifiordataonly.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/android.hardware.telephony.wifiordataonly.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.carrierconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.carrierconfig.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.emergency.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.emergency.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.lens.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.lens.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.providers.calendar.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.providers.calendar.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.providers.contacts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.providers.contacts.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.settings.intelligence.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settings.intelligence.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.settings.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.settings.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.storagemanager.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.storagemanager.xml \
-    vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.android.systemui.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.systemui.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.sprd.enginecore.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.sprd.enginecore.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.sprd.omacp.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.sprd.omacp.xml \
     vendor/tecno/TECNO-KI5m/proprietary/system_ext/etc/permissions/com.spreadtrum.ims.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.spreadtrum.ims.xml \
