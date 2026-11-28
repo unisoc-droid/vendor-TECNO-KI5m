@@ -8,15 +8,15 @@ no extraction, no image, no manual step.
 - `proprietary/` — 2088 files + 200 symlinks from stock V218 `vendor.img`
   (plus the 71 non-build `system_ext`/`product` artifacts listed below).
 - `proprietary-files.txt` (sections per partition), `proprietary-symlinks.txt`,
-  `proprietary-fsconfig.txt` (stock uid/gid/mode), `blobs.sha256`.
-- `inventory/` — `stock.tsv` (type, mode, uid, gid, size, sha256, link target),
-  `dirs.txt`, `committed.tsv`, `exclusions.tsv`.
-- `provenance.json`, `NOTICE`.
+  `proprietary-fsconfig.txt` (stock uid/gid/mode).
+- `inventory/` — build-independent provenance/audit data: `stock.tsv`,
+  `committed.tsv`, `dirs.txt`, `exclusions.tsv`, `expected_total.txt`,
+  `blobs.sha256`, `provenance.json`, `NOTICE`, `inspection/`, `tools/`.
 - Generated `TECNO-KI5m-vendor.mk`, `Android.bp`, `Android.mk`,
   `Android.symlinks.mk`, `BoardConfigVendor.mk`.
 - `vendor.prop` — stock `/vendor/build.prop` content (the file itself is
   build-generated, so it is carried as a property file instead).
-- `tools/verify-vendor.sh` — re-checks the tree against the inventory.
+- `inventory/tools/verify-vendor.sh` — re-checks the tree against the inventory.
 
 Regeneration is maintainer-only: `extract-files.sh <image|dump>`.
 
@@ -40,7 +40,7 @@ entries. A clone must run `git lfs pull` (or not clone with
 ## Verify
 
 ```bash
-tools/verify-vendor.sh inventory   # exits non-zero on any gap
+inventory/tools/verify-vendor.sh inventory   # exits non-zero on any gap
 ```
 
 ## Build

@@ -1,8 +1,8 @@
 #!/bin/bash
 # Verify the vendor tree against the stock inventory. Exit non-zero on any gap.
-# Usage: tools/verify-vendor.sh <stock-inventory-dir>
+# Usage: inventory/tools/verify-vendor.sh <stock-inventory-dir>
 set -u
-cd "$(dirname "$0")/.."
+cd "$(dirname "$0")/../.."
 INV="${1:?usage: verify-vendor.sh <inventory-dir>}"
 fail=0
 note() { printf '%s\n' "$*"; }
@@ -14,7 +14,7 @@ while read -r sha path; do
   if [ ! -e "$path" ] && [ ! -L "$path" ]; then bad "missing $path"; continue; fi
   got=$(sha256sum "$path" | cut -d' ' -f1)
   [ "$got" = "$sha" ] || bad "sha $path"
-done < blobs.sha256
+done < inventory/blobs.sha256
 
 # 2. no dangling symlink, target matches record
 while IFS=$'\t' read -r path target; do
@@ -27,7 +27,7 @@ done < proprietary-symlinks.txt
 
 # 3. count parity: committed + exclusions == inventory(non-dir)
 total=$(cat inventory/expected_total.txt)
-committed=$(grep -c . blobs.sha256)
+committed=$(grep -c . inventory/blobs.sha256)
 links=$(grep -vc '^#' proprietary-symlinks.txt)
 excluded=$(grep -c . "$INV/exclusions.tsv" 2>/dev/null || echo 0)
 [ "$((committed + links + excluded))" -eq "$total" ] || bad "count committed+links+excluded=$((committed + links + excluded)) != stock=$total"
